@@ -1,5 +1,5 @@
 # Projekt-KCK
-This is a repository where we push files which create Tour project of inteligent waiter.
+This is a repository where we push files which create our project of inteligent waiter.
 
 The link with the repository is: https://github.com/marcin-szczepanski/Projekt-KCK.
 

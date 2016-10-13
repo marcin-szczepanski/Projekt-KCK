@@ -1,5 +1,5 @@
 # Projekt-KCK
-This is a repository where we push files which create our project of inteligent waiter. We'll use Python language.
+This is a repository where we push files which create our project of automatic waiter. We'll use Python language.
 
 The link with the repository is: https://github.com/marcin-szczepanski/Projekt-KCK.
 

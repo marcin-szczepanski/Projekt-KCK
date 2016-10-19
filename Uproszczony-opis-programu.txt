@@ -1,0 +1,19 @@
+﻿1. Środowisko: Qt - Python.
+2. Uproszczony czat: dwa pola tekstowe - klient i kelner.
+3. Grafika: prosta mapka ze stolikami - kelner podchodzi do stolika i odchodzi a rozmowa na czacie; pole tekstowe z uwagami.
+4. Funkcjonalności:
+- kelner widzi nowych klientów;
+- kelner podchodzi do stolika;
+- kelner podaje kartę;
+- kelner odchodzi i czeka lub podchodzi do nowego klienta;
+- kelner podchodzi ponownie;
+- klient ewentualnie prosi o polecenie jakiegoś dania na podst. wymagań;
+- przyjmowanie zamówień;
+- kelner odchodzi i czeka;
+- kelner podchodzi i podaje zamówienie;
+- kelner odchodzi i czeka;
+- kelner podchodzi z paragonem i klient płaci;
+- kelner się żegna i klient wychodzi;
+- bardzo mała karta dań.
+
+Program będzie wykonany w języky Python przy pomocy PyQT4 i QtDesignera pod Linuksem.

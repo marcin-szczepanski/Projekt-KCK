@@ -17,3 +17,5 @@ Useful commands:
 5) Saving changes: git add .
 
 6) Updating the repository: git push
+
+7) Updating local repository: git pull

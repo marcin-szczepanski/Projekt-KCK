@@ -16,4 +16,16 @@
 - kelner się żegna i klient wychodzi;
 - bardzo mała karta dań.
 
-Program będzie wykonany w języky Python przy pomocy PyQT4 i QtDesignera pod Linuksem.
+Czego potrzebujemy?
+1. Funkcja do wyboru stolika.
+2. Funkcja obsługująca kartę dań.
+3.
+4.
+
+Program będzie wykonany w języku Python przy pomocy PyQT4 i QtDesignera pod Linuksem.
+
+Podział pracy:
+Kinga -
+Łukasz -
+Marcin -
+Wojtek -

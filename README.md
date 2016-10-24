@@ -14,7 +14,7 @@ Useful commands:
 
 4) Checking the repository status: git status
 
-5) Saving changes: git add .
+5) Adding changes: git add .
 
 6) Updating the repository: git push
 

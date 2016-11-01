@@ -30,11 +30,11 @@ Jajecznica = Meal("Jajecznica")
 Jajecznica.addIngredients(["Jajko", "Masło", "Cebula"])
 ListOfDishes.append(Jajecznica)
 
-Omlet = Meal("Jajecznica")
+Omlet = Meal("Omlet")
 Omlet.addIngredients(["Jajko", "Masło", "Mleko"])
 ListOfDishes.append(Omlet)
 
-Rosol = Meal("Rosol")
+Rosol = Meal("Rosół")
 Rosol.addIngredients(["Drób", "Włoszczyzna", "Wołowina"])
 ListOfDishes.append(Rosol)
 

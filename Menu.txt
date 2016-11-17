@@ -1,0 +1,13 @@
+Jajecznica; Jajko, Mas³o, Cebula
+Omlet; Jajko, Mas³o, Mleko
+Rosó³; Drób, W³oszczyzna, Wo³owina
+Tatar; Wo³owina, Jajko, Olej, Cebula, Ogórek
+Carpaccio wo³owe z rukol¹ i parmezanem; Wo³owina, Rukola, Parmezan
+Barszcz czerwony z ko³dunami; Bulion, Burak, Grzyby, Ko³duny
+Pierogi ze szpinakiem, suszonymi pomidorami i fet¹; Szpinak, Pomidor, Feta
+Pierogi z cielêcin¹ i borowikami z mas³em sza³wiowym; Cielêcina, Borowik, Mas³o, Sza³wia
+¯urek z bia³¹ kie³bas¹ i jajkiem; Bulion, Zakwas, Kie³basa, Jajko
+Krem z dyni z mlekiem kokosowym; Bulion, Dynia, Mleko kokosowe, Œmietana
+Krem z trufli z grzankami; Bulion, Trufle, Œmietana, Grzanki
+Krem z pomidorów; Bulion, Pomidor, Œmietana
+Zupa pomidorowa; Bulion, Pomidor, Œmietana

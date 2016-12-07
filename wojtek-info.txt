@@ -2,15 +2,9 @@
 1. Wywolanie funkcji czyszczacej clearbadwords
 clearbadwords("string ktory ma byc wyczyszczony","xxx.txt" - plik lub ściezka do pliku z slowami do usuniecia domyślnie badwords.txt)
 Funkcja czyści z niepotrzebnych wyrazów, usuwa powtórzenia oraz sortuje alfabetycznie wyrazy stringa
-2. (Tego brakuje) Funkcja sprowadzająca do bezokolicznika, Sprowadza do 
-podstawowej formy wyrazy
+2.  Funkcja sprowadzająca do bezokolicznika, Sprowadza do podstawowej formy zdanie.
+wywołanie funkcji wordtoinfinitive('String który mam być zamieniony na bezokolicznik')
 
-Założenia(korzystamy ze słownika lem.bin)(czasownik,liczebnik,rzeczonik,przymiotnik)
-1.Przejecie stringa
-2.Usunięcie wszystkich zbędnych wyrazów(clear_s)
-3.Przekształcenie całego ciągu wyrazów w wyrazy w formie podstawowej korzystając ze słownika
-4.Wyszukuje wyrazów kluczowych (oferowac,zamawiac,prosic,polecac,kupowac), wysuwamy je na początku stringa
+!!Funkcja ta może zwracać częśći mowy każdego z wyrazów lecz jest to narazie zakomentowane
 
-1.wyrzucam wyrazy niepotrzebne do niczego 
-2.wszystkie wyrazy przekształcam na wyrazy podstawowe
-
+Obie funkcje zwracają stringi

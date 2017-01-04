@@ -46,9 +46,10 @@ def whataction(word = '', file = "synonymous_words.txt" ):
 		    action=wiersz[-1]
 		    break;
     f.close()
+    action = action.replace("\n","")
     if action == '':
 	    action = "error"
-    return(action.replace("\n",""))
+    return(action)
 
 ### test
 
@@ -70,6 +71,7 @@ def listofactions(file = "synonymous_words.txt"):
 print (listofactions())
 	
 ### poniższa funkcja jest niedokończona; do dyskusji w grupie
+
 def understanding(wordlist = '', listofpartsofspeech = ''):
 	list = createobjectslist(wordlist, listofpartsofspeech)
 	count = len(list)

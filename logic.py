@@ -1,5 +1,18 @@
-import re
 import linecache
+
+def createobjectslist(wordlist = '', listofpartsofspeech = ''):
+	w = wordlist.split(" ")
+	l = listofpartsofspeech.split(" ")
+	count = len(w)
+	tab = [[[None] for col in range(2)] for row in range(count)]
+	for i in range(count):
+		tab[i][0] = w[i]
+		tab[i][1] = l[i]
+	return(tab)
+	
+### test
+
+print (createobjectslist("ala ma czarnego kota","N V Adj N"))
 
 def whataction(word = '', file = "synonymous_words.txt" ):
     f = open(file, mode="r+")
@@ -15,6 +28,7 @@ def whataction(word = '', file = "synonymous_words.txt" ):
 	    action = "error"
     return(action)
 
-###test
+### test
 
 print (whataction("poprosić"))
+

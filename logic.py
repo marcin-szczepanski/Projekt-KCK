@@ -12,7 +12,7 @@ def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	
 ### test
 
-print (createobjectslist("ala ma czarnego kota","N V Adj N"))
+print (createobjectslist("kotlet schabowy frytka kapusta pekińska poprosić","N Adj N N Adj V"))
 
 def whataction(word = '', file = "synonymous_words.txt" ):
     f = open(file, mode="r+")
@@ -32,3 +32,16 @@ def whataction(word = '', file = "synonymous_words.txt" ):
 
 print (whataction("poprosić"))
 
+### poniższa funkcja jest niedokończona; do dyskusji w grupie
+def understanding(wordlist = '', listofpartsofspeech = ''):
+	list = createobjectslist(wordlist, listofpartsofspeech)
+	count = len(list)
+	for i in range(count):
+		if list[i][1] == "V":
+			action = list[i][0]
+			break;
+	return(action)
+	
+### test
+
+print (understanding("kotlet schabowy frytka kapusta pekińska poprosić","N Adj N N Adj V"))

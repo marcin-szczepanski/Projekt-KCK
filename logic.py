@@ -44,9 +44,9 @@ def whataction(word = '', file = "synonymous_words.txt" ):
 	    wiersz = linecache.getline(file, i).split(";")
 	    if word in wiersz:
 		    action=wiersz[-1]
+		    action = action.replace("\n","")
 		    break;
     f.close()
-    action = action.replace("\n","")
     if action == '':
 	    action = "error"
     return(action)
@@ -97,4 +97,4 @@ def understanding(wordlist = '', listofpartsofspeech = ''):
 
 ### test
 
-print (understanding("kotlet schabowy frytka kapusta pekińska poprosić","N Adj N N Adj V"))
+print (understanding("poprosić kotlet schabowy frytka kapusta pekińska","V N Adj N N Adj"))

@@ -10,7 +10,7 @@ def clearbadwords(str = "", file = "badwords.txt"): # pierwszy argument przyjmuj
         str = str.lower()
         listbad = s.split()
         liststr = str.split()
-        liststr = list(set(liststr))
+        ##liststr = list(set(liststr)) ### psuje kolejność wyrazów w zdaniu
 
         for bs in listbad:
             for gs in liststr:

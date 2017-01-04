@@ -1,0 +1,6 @@
+zamówić;zamawiać;podać;podawać;prosić;poprosić;przynieść;przynosić;ZAMOW
+płacić;zapłacić;wpłacić;ZAPLAC
+zabrać;wziąć;zabierać;ZABIERZ
+polecić;zaproponować;proponować;polecać;mieć;POLEC
+podejść;przyjść;PODEJDZ
+odejść;iść;ODEJDZ

@@ -1,26 +1,28 @@
+### koduje Marcin
 import linecache
 
-### funkcje do implementacji:
+### funkcje do implementacji przez Łukasza i Kingę (Marcin przygotowuje i przekazuje argumenty w postaci listy):
 
-def zamow():
-	print ("zamów")
+def zamow(): ### argumentem będzie lista obiektów postaci [rzeczownik, przymiotniki po przecinku]
+	print ("funkcja zamów")
 	
-def zaplac():
-	print ("zapłać")
+def zaplac(): ### argumentem będzie słowo karta/gotówka (Kinga z rozmowy i analizy ile rzeczy zamówiono i za ile wnioskuje jaka jest kwota zamówienia)
+	print ("funkcja zapłać")
 	
-def zabierz():
-	print ("zabierz")
+def zabierz(): ### argumentem będzie słowo, co zabrać: menu/karta (dań)/talerze/
+	print ("funkcja zabierz")
 	
-def polec():
-	print ("poleć")
+def polec(): ### brak argumentów; chodzi o polecenie czegoś losowo z menu
+	print ("funkcja poleć")
 	
-def podejdz():
-	print ("podejdź")
+def podejdz(): ### brak argumentów; chodzi o to, żeby podszedł kelner
+	print ("funkcja podejdź")
 	
-def odejdz():
-	print ("odejdź")
+def odejdz(): ### brak argumentów; chodzi o to, żeby kelner odszedł od stołu
+	print ("funkcja odejdź")
 
-### funkcje napisane (do konsultacji w grupie):
+def prosic(): ### implementuje Marcin
+	print ("funkcja prosić")
 	
 def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	w = wordlist.split(" ")
@@ -34,7 +36,7 @@ def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	
 ### test
 
-print (createobjectslist("kotlet schabowy frytka kapusta pekińska poprosić","N Adj N N Adj V"))
+print (createobjectslist("poprosić kotlet schabowy frytka kapusta pekińska","V N ADJ N N ADJ"))
 
 def whataction(word = '', file = "synonymous_words.txt" ):
     f = open(file, mode="r+")
@@ -93,6 +95,8 @@ def understanding(wordlist = '', listofpartsofspeech = ''):
 		podaj()
 	if actionmethod == actions[5]:
 		odejdz()
+	if actionmethod == actions[6]:
+		prosic()
 	return(action)
 
 ### test

@@ -15,7 +15,7 @@ def zabierz(): ### argumentem będzie słowo, co zabrać: menu/karta (dań)/tale
 def polec(): ### brak argumentów; chodzi o polecenie czegoś losowo z menu
 	print ("funkcja poleć")
 	
-def podejdz(): ### brak argumentów; chodzi o to, żeby podszedł kelner
+def podejdz(): ### brak argumentów; chodzi o to, żeby kelner podszedł do stołu
 	print ("funkcja podejdź")
 	
 def odejdz(): ### brak argumentów; chodzi o to, żeby kelner odszedł od stołu

@@ -23,7 +23,10 @@ def odejdz(): ### brak argumentów; chodzi o to, żeby kelner odszedł od stołu
 
 def prosic(): ### implementuje Marcin
 	print ("funkcja prosić")
-	
+
+def dzielAkcje() ### implementuje Marcin (jeśli jest więcej niż jedna akcja w zdaniu)
+	print ("dziel akcje")
+
 def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	w = wordlist.split(" ")
 	l = listofpartsofspeech.split(" ")

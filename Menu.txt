@@ -1,13 +1,22 @@
-Jajecznica; Jajko, Mas³o, Cebula
-Omlet; Jajko, Mas³o, Mleko
-Rosó³; Drób, W³oszczyzna, Wo³owina
-Tatar; Wo³owina, Jajko, Olej, Cebula, Ogórek
-Carpaccio wo³owe z rukol¹ i parmezanem; Wo³owina, Rukola, Parmezan
-Barszcz czerwony z ko³dunami; Bulion, Burak, Grzyby, Ko³duny
-Pierogi ze szpinakiem, suszonymi pomidorami i fet¹; Szpinak, Pomidor, Feta
-Pierogi z cielêcin¹ i borowikami z mas³em sza³wiowym; Cielêcina, Borowik, Mas³o, Sza³wia
-¯urek z bia³¹ kie³bas¹ i jajkiem; Bulion, Zakwas, Kie³basa, Jajko
-Krem z dyni z mlekiem kokosowym; Bulion, Dynia, Mleko kokosowe, Œmietana
-Krem z trufli z grzankami; Bulion, Trufle, Œmietana, Grzanki
-Krem z pomidorów; Bulion, Pomidor, Œmietana
-Zupa pomidorowa; Bulion, Pomidor, Œmietana
+Jajecznica; 6
+Omlet; 5
+RosÃ³Å‚; 7
+Tatar; 6
+Bigos; 7
+SaÅ‚atka jarzynowa; Ziemniaki, Marchewka, Groszek, Kukurydza, Majonez, 6
+Kotlet schabowy z ziemniakami i surÃ³wkÄ…; Kotlet Schabowy, Ziemniaki, SurÃ³wka, 17
+PierÅ› z kurczaka z ziemniakami i surÃ³wkÄ…; PierÅ› z kurczaka, Ziemniaki, SurÃ³wka, 15
+Stek z cebulkÄ… z kaszÄ… gryczanÄ… i surÃ³wkÄ…; Stek, Kasza gryczana, SurÃ³wka, 16
+GoÅ‚Ä…bek miÄ™sny w sosie pomidorowym; GoÅ‚Ä…bek, Sos pomidorowy, 16
+NaleÅ›niki z serem; NaleÅ›niki, Ser, 8
+Pierogi z miÄ™sem; Pierogi, MiÄ™so, 8
+Krokiety z miÄ™sem; NaleÅ›niki, MiÄ™so, 15
+Golonka w sosie chrzanowym; Golonka, Sos chrzanowy, 20
+Placki zmieniaczane z pieczarkami; Placki ziemniaczane, Pieczarki, 10
+Kawa, 4
+Herbata, 4
+Sok pomaraÅ„czowy, 4
+Sok jabÅ‚kowy, 4
+Woda, 3
+Sernik, 9
+JabÅ‚ecznik, 9

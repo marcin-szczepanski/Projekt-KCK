@@ -1,22 +1,24 @@
-Jajecznica; 6
-Omlet; 5
-Rosół; 7
-Tatar; 6
-Bigos; 7
-Sałatka jarzynowa; Ziemniaki, Marchewka, Groszek, Kukurydza, Majonez, 6
-Kotlet schabowy z ziemniakami i surówką; Kotlet Schabowy, Ziemniaki, Surówka, 17
-Pierś z kurczaka z ziemniakami i surówką; Pierś z kurczaka, Ziemniaki, Surówka, 15
-Stek z cebulką z kaszą gryczaną i surówką; Stek, Kasza gryczana, Surówka, 16
-Gołąbek mięsny w sosie pomidorowym; Gołąbek, Sos pomidorowy, 16
-Naleśniki z serem; Naleśniki, Ser, 8
-Pierogi z mięsem; Pierogi, Mięso, 8
-Krokiety z mięsem; Naleśniki, Mięso, 15
-Golonka w sosie chrzanowym; Golonka, Sos chrzanowy, 20
-Placki zmieniaczane z pieczarkami; Placki ziemniaczane, Pieczarki, 10
-Kawa, 4
-Herbata, 4
-Sok pomarańczowy, 4
-Sok jabłkowy, 4
-Woda, 3
-Sernik, 9
-Jabłecznik, 9
+Jajecznica;Jajecznicę;6
+Omlet;Omleta;5
+Rosół;Rosół;7
+Zupa pomidorowa;Zupę pomidorową;5
+Tatar;Tatar;6
+Bigos;Bigos;7
+Sałatka jarzynowa;Sałatkę jarzynową;6
+Kotlet schabowy z ziemniakami i surówką;Kotleta schabowego z ziemniakami i surówką;17
+Pierś z kurczaka z ziemniakami i surówką;Pierś z kurczaka z ziemniakami i surówką;15
+Stek z cebulką z kaszą gryczaną i surówką;Steka z cebulką z kaszą gryczaną i surówką;16
+Gołąbek mięsny w sosie pomidorowym;Gołąbka mięsnego w sosie pomidorowym;16
+Naleśniki z serem;Naleśniki z serem;8
+Pierogi z mięsem;Pierogi z mięsem;8
+Krokiety z mięsem;Krokiety z mięsem;15
+Golonka w sosie chrzanowym;Golonkę w sosie chrzanowym;20
+Placki ziemniaczane;Placki ziemniaczane;10
+Frytki;Frytki;5
+Kawa;Kawę;4
+Herbata;Herbatę;4
+Sok;Sok;4
+Mleko;Mleko;4
+Woda;Wodę;3
+Sernik;Sernik;9
+Jabłecznik;Jabłecznik;9

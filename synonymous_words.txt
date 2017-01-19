@@ -1,7 +1,9 @@
-zamówić;zamawiać;ZAMOW
-płacić;zapłacić;wpłacić;ZAPLAC
-zabrać;wziąć;zabierać;ZABIERZ
-polecić;zaproponować;proponować;polecać;mieć;zarekomedować;rekomendować;POLEC
-podejść;przyjść;PODEJDZ
-odejść;iść;ODEJDZ
-podać;podawać;prosić;poprosić;przynieść;przynosić;PROSIC
+zamówić;zamawiać;zamow;1
+płacić;zapłacić;wpłacić;zaplac;0
+zabrać;wziąć;zabierać;zabierz;1
+polecić;zaproponować;proponować;polecać;mieć;zarekomedować;rekomendować;polec;0
+podejść;przyjść;podejdz;0
+odejść;iść;odejdz;0
+dać;dawać;podać;podawać;prosić;poprosić;przynieść;przynosić;prosic;1
+przyniesF;1
+error;0

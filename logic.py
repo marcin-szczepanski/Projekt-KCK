@@ -12,7 +12,7 @@ def zaplac(): ### płatność (tylko) gotówką (Kinga z rozmowy i analizy ile r
 	print ("funkcja zapłać")
 	
 def zabierz(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt)
-	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego :)
+	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja zabierz")
 	
 def przyniesF(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt); uwaga na nazwę funkcji: przyniesF !
@@ -33,7 +33,7 @@ def error(): ### gdy nie zrozumiemy o co chodzi klientowi :)
 
 ###############################	
 
-def zamow(list): ### implementuje Marcin; funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
+def zamow(list): ### funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
 	meals = []
 	count = len(list)//3
 	meals = [[[None] for col in range(2)] for row in range(count)]
@@ -43,7 +43,7 @@ def zamow(list): ### implementuje Marcin; funkcja przekształca listę do postac
 	zamowF(meals)
 	return
 
-def prosic(list, file="words.txt"): ### implementuje Marcin
+def prosic(list, file="words.txt"):
 	f = open(file, mode="r+")
 	j = 0
 	k = 0

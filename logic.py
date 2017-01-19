@@ -7,18 +7,24 @@ import linecache
 
 def zamowF(list): ### argumentem będzie lista obiektów postaci [liczebnik (int), string z nazwą dania], np. list=[[2, "zupa pomidorowa"],[1, "sałatka jarzynowa]]; uwaga na nazwę funkcji: zamowF !
 	print ("funkcja zamów")
+	print(list)
 	
 def zaplac(): ### płatność (tylko) gotówką (Kinga z rozmowy i analizy ile rzeczy zamówiono i za ile wnioskuje jaka jest kwota zamówienia)
 	print ("funkcja zapłać")
 	
 def zabierz(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt)
-	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
+	if list[0] == "zabranie":
+		list[0] = list[1]
+	x = list[0]
+	### po prostu wpiszcie te 3 linijki powyżej na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja zabierz")
+	print(x)
 	
 def przyniesF(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt); uwaga na nazwę funkcji: przyniesF !
 	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja przynieś")
-	
+	print(x)
+
 def polec(): ### brak argumentów; chodzi o polecenie czegoś losowo z menu
 	print ("funkcja poleć")
 	
@@ -66,7 +72,18 @@ def prosic(list, file="words.txt"):
 	f.close();
 	if action == '':
 		zamow(list)
-	print(action)
+	else:
+		value = whataction(action)
+		how_many_args = value[1]
+		word = value[0]
+		possibles = globals().copy()
+		possibles.update(locals())
+		method = possibles.get(word)
+		if how_many_args != '0':
+			method(list)
+		else:
+			method()
+	return
 
 def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	w = wordlist.split(" ")

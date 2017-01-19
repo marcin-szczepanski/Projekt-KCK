@@ -5,18 +5,18 @@ import linecache
 
 ### funkcje do implementacji przez Łukasza i Kingę (Marcin przygotowuje i przekazuje argumenty w postaci listy):
 
-def zamowF(list): ### argumentem będzie lista obiektów postaci [liczebnik, string z nazwą dania], np. list=[[2, "zupa pomidorowa"],[1, "sałatka jarzynowa]]; uwaga na nazwę funkcji: zamowF !
+def zamowF(list): ### argumentem będzie lista obiektów postaci [liczebnik (int), string z nazwą dania], np. list=[[2, "zupa pomidorowa"],[1, "sałatka jarzynowa]]; uwaga na nazwę funkcji: zamowF !
 	print ("funkcja zamów")
 	
 def zaplac(): ### płatność (tylko) gotówką (Kinga z rozmowy i analizy ile rzeczy zamówiono i za ile wnioskuje jaka jest kwota zamówienia)
 	print ("funkcja zapłać")
 	
 def zabierz(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt)
-	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało :)
+	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego :)
 	print ("funkcja zabierz")
 	
 def przyniesF(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt); uwaga na nazwę funkcji: przyniesF !
-	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało :)
+	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja przynieś")
 	
 def polec(): ### brak argumentów; chodzi o polecenie czegoś losowo z menu

@@ -3,10 +3,10 @@ import linecache
 
 ### funkcje do implementacji przez Łukasza i Kingę (Marcin przygotowuje i przekazuje argumenty w postaci listy):
 
-def zamow(): ### argumentem będzie lista obiektów postaci [rzeczownik, przymiotniki po przecinku]
+def zamow(): ### argumentem będzie lista obiektów postaci [liczebnik, string z nazwą dania]
 	print ("funkcja zamów")
 	
-def zaplac(): ### argumentem będzie słowo karta/gotówka (Kinga z rozmowy i analizy ile rzeczy zamówiono i za ile wnioskuje jaka jest kwota zamówienia)
+def zaplac(): ### płatność gotówką (Kinga z rozmowy i analizy ile rzeczy zamówiono i za ile wnioskuje jaka jest kwota zamówienia)
 	print ("funkcja zapłać")
 	
 def zabierz(): ### argumentem będzie słowo, co zabrać: menu/karta (dań)/talerze/
@@ -24,8 +24,8 @@ def odejdz(): ### brak argumentów; chodzi o to, żeby kelner odszedł od stołu
 def prosic(): ### implementuje Marcin
 	print ("funkcja prosić")
 
-def dzielAkcje() ### implementuje Marcin (jeśli jest więcej niż jedna akcja w zdaniu)
-	print ("dziel akcje")
+### def dzielAkcje(): ### implementuje Marcin (jeśli jest więcej niż jedna akcja w zdaniu)
+###	print ("dziel akcje")
 
 def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	w = wordlist.split(" ")
@@ -86,7 +86,7 @@ def understanding(wordlist = '', listofpartsofspeech = ''):
 			break;
 	actionmethod = whataction(action)
 	actions = listofactions()
-	if actionmethod == actions[0]:
+	if actionmethod == actions[0]: ### zamiast if-ów plik z akcjami i dopełnieniami i szukanie w pliku o jaką akcję chodzi
 		zamow()
 	if actionmethod == actions[1]:
 		zaplac()

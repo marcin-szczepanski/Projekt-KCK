@@ -36,7 +36,6 @@ def error(): ### gdy nie zrozumiemy o co chodzi klientowi :)
 def zamow(list): ### implementuje Marcin; funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
 	meals = []
 	count = len(list)//3
-	print(count)
 	meals = [[[None] for col in range(2)] for row in range(count)]
 	for i in range(count):
 		meals[i][0] = int(list.pop(0))

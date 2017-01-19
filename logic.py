@@ -13,15 +13,15 @@ def zaplac(): ### płatność (tylko) gotówką (Kinga z rozmowy i analizy ile r
 	print ("funkcja zapłać")
 	
 def zabierz(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt)
-	if list[0] == "zabranie":
-		list[0] = list[1]
-	x = list[0]
+	if list[0][0] == "zabranie":
+		list[0][0] = list[1][0]
+	x = list[0][0]
 	### po prostu wpiszcie te 3 linijki powyżej na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja zabierz")
 	print(x)
 	
 def przyniesF(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt); uwaga na nazwę funkcji: przyniesF !
-	x = list[0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
+	x = list[0][0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja przynieś")
 	print(x)
 
@@ -39,13 +39,25 @@ def error(): ### gdy nie zrozumiemy o co chodzi klientowi :)
 
 ###############################	
 
+def clbadwds(list):
+	args = []
+	while (list):
+		if list[0][1] != 'NUMCRD':
+			args.append(list.pop(0))
+		else:
+			list.pop(0)
+	return (args)
+
 def zamow(list): ### funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
 	meals = []
 	count = len(list)//3
 	meals = [[[None] for col in range(2)] for row in range(count)]
 	for i in range(count):
-		meals[i][0] = int(list.pop(0))
-		meals[i][1] = list.pop(0) + " " + list.pop(0)
+		number = list.pop(0)
+		meals[i][0] = int(number[0])
+		noun = list.pop(0)
+		adj = list.pop(0)
+		meals[i][1] = noun[0] + " " + adj[0]
 	zamowF(meals)
 	return
 
@@ -56,17 +68,19 @@ def prosic(list, file="words.txt"):
 	action = ''
 	word = ''
 	count = len(f.readlines())+1
+	c = len(list)
 	for i in range(count):
 		wiersz = linecache.getline(file, i).split(";")
 		while (wiersz):
-			word = list[j]
-			j = j + 1
+			if j == c:
+				j = 0
+				break
+			word = list[j][0]
 			if word in wiersz:
 				action = wiersz[-1].replace("\n","")
 				k = 1
 				break
-			wiersz.pop(0)
-			j = 0
+			j = j + 1
 		if k != 0:
 			break
 	f.close();
@@ -79,8 +93,14 @@ def prosic(list, file="words.txt"):
 		possibles = globals().copy()
 		possibles.update(locals())
 		method = possibles.get(word)
+		listargs = clbadwds(list)
+		args = []
+		while (listargs):
+			args.append(listargs[0])
+			listargs.pop(0)
 		if how_many_args != '0':
-			method(list)
+			print(args)
+			method(args)
 		else:
 			method()
 	return
@@ -130,9 +150,8 @@ def understanding(wordlist = '', listofpartsofspeech = ''):
 	possibles.update(locals())
 	method = possibles.get(word)
 	args = []
-	i = 0
 	while (list):
-		args.append(list[0][0])
+		args.append(list[0])
 		list.pop(0)
 	if how_many_args != '0':
 		method(args)

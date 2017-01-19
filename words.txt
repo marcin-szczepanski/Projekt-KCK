@@ -1,4 +1,4 @@
 rachunek;paragon;podsumowanie;zaplac
-talerz;talerze;naczynia;menu;karta;sztućce;widelec;widelce;nóż;noże;łyżka;łyżki;łyżeczka;łyżeczki;przyniesF
+przyniesienie;talerz;talerze;naczynia;menu;karta;sztućce;widelec;widelce;nóż;noże;łyżka;łyżki;łyżeczka;łyżeczki;przyniesF
 zabranie;talerz;talerze;naczynia;menu;karta;sztućce;widelec;widelce;nóż;noże;łyżka;łyżki;łyżeczka;łyżeczki;zabierz
 pan;kelner;podejdz

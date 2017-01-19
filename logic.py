@@ -7,7 +7,6 @@ import linecache
 
 def zamowF(list): ### argumentem będzie lista obiektów postaci [liczebnik (int), string z nazwą dania], np. list=[[2, "zupa pomidorowa"],[1, "sałatka jarzynowa]]; uwaga na nazwę funkcji: zamowF !
 	print ("funkcja zamów")
-	print(list)
 	
 def zaplac(): ### płatność (tylko) gotówką (Kinga z rozmowy i analizy ile rzeczy zamówiono i za ile wnioskuje jaka jest kwota zamówienia)
 	print ("funkcja zapłać")
@@ -18,12 +17,13 @@ def zabierz(list): ### argumentem będzie słowo, co zabrać (lista w pliku word
 	x = list[0][0]
 	### po prostu wpiszcie te 3 linijki powyżej na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja zabierz")
-	print(x)
 	
 def przyniesF(list): ### argumentem będzie słowo, co zabrać (lista w pliku words.txt); uwaga na nazwę funkcji: przyniesF !
-	x = list[0][0] ### po prostu wpiszcie taką linijkę na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
+	if list[0][0] == "przyniesienie":
+		list[0][0] = list[1][0]
+	x = list[0][0]
+	### po prostu wpiszcie te 3 linijki powyżej na początku funkcji w swoich częściach, żeby działało; ten x traktujcie jako argument funkcji zamiast samego list :)
 	print ("funkcja przynieś")
-	print(x)
 
 def polec(): ### brak argumentów; chodzi o polecenie czegoś losowo z menu
 	print ("funkcja poleć")
@@ -69,18 +69,15 @@ def prosic(list, file="words.txt"):
 	word = ''
 	count = len(f.readlines())+1
 	c = len(list)
-	for i in range(count):
-		wiersz = linecache.getline(file, i).split(";")
-		while (wiersz):
-			if j == c:
-				j = 0
-				break
+	while (j != c):
+		for i in range(count):
+			wiersz = linecache.getline(file, i).split(";")
 			word = list[j][0]
 			if word in wiersz:
 				action = wiersz[-1].replace("\n","")
 				k = 1
 				break
-			j = j + 1
+		j = j + 1
 		if k != 0:
 			break
 	f.close();
@@ -99,7 +96,6 @@ def prosic(list, file="words.txt"):
 			args.append(listargs[0])
 			listargs.pop(0)
 		if how_many_args != '0':
-			print(args)
 			method(args)
 		else:
 			method()

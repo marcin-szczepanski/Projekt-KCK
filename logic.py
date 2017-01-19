@@ -99,7 +99,6 @@ def whataction(word, file = "synonymous_words.txt" ):
 
 def understanding(wordlist = '', listofpartsofspeech = ''):
 	list = createobjectslist(wordlist, listofpartsofspeech)
-	list1 = list
 	count = len(list)
 	action = "error"
 	for i in range(count):

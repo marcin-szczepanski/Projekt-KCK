@@ -1,0 +1,30 @@
+jajecznica;6
+omlet;5
+rosół;7
+zupa pomidorowa;5
+zupa jarzynowa;5
+zupa grzybowa;6
+żurek;5
+barszcz ukraiński;6
+gulasz;10
+leczo;12
+tatar;6
+bigos;7
+sałatka jarzynowa;6
+kotlet schabowy;12
+gołąbek;12
+naleśnik serowy;8
+pierog ruski;8
+golonka;20
+placka ziemniaczany;10
+frytka;5
+kasza;5
+ziemniak;5
+ryż;4
+kawa;4
+herbata;4
+sok;4
+mleko;4
+woda;3
+sernik;9
+jabłecznik;9

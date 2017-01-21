@@ -1,24 +1,30 @@
-Jajecznica;Jajecznicę;6
-Omlet;Omleta;5
-Rosół;Rosół;7
-Zupa pomidorowa;Zupę pomidorową;5
-Tatar;Tatar;6
-Bigos;Bigos;7
-Sałatka jarzynowa;Sałatkę jarzynową;6
-Kotlet schabowy z ziemniakami i surówką;Kotleta schabowego z ziemniakami i surówką;17
-Pierś z kurczaka z ziemniakami i surówką;Pierś z kurczaka z ziemniakami i surówką;15
-Stek z cebulką z kaszą gryczaną i surówką;Steka z cebulką z kaszą gryczaną i surówką;16
-Gołąbek mięsny w sosie pomidorowym;Gołąbka mięsnego w sosie pomidorowym;16
-Naleśniki z serem;Naleśniki z serem;8
-Pierogi z mięsem;Pierogi z mięsem;8
-Krokiety z mięsem;Krokiety z mięsem;15
-Golonka w sosie chrzanowym;Golonkę w sosie chrzanowym;20
-Placki ziemniaczane;Placki ziemniaczane;10
-Frytki;Frytki;5
-Kawa;Kawę;4
-Herbata;Herbatę;4
-Sok;Sok;4
-Mleko;Mleko;4
-Woda;Wodę;3
-Sernik;Sernik;9
-Jabłecznik;Jabłecznik;9
+jajecznica;6
+omlet;5
+rosół;7
+zupa pomidorowa;5
+zupa jarzynowa;5
+zupa grzybowa;6
+żurek;5
+barszcz ukraiński;6
+gulasz;10
+leczo;12
+tatar;6
+bigos;7
+sałatka jarzynowa;6
+kotlet schabowy;12
+gołąbek;12
+naleśniki serowe;8
+pierogi ruskie;8
+golonka;20
+placki ziemniaczane;10
+frytki;5
+kasza;5
+ziemniaki;5
+ryż;4
+kawa;4
+herbata;4
+sok;4
+mleko;4
+woda;3
+sernik;9
+jabłecznik;9

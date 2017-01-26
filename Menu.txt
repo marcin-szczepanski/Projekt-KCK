@@ -1,30 +1,29 @@
-jajecznica;6
-omlet;5
-rosół;7
+jajecznica tradycyjna;6
+omlet owsiany;5
+rosół tradycyjny;7
 zupa pomidorowa;5
 zupa jarzynowa;5
 zupa grzybowa;6
-żurek;5
+żurek staropolski;5
 barszcz ukraiński;6
-gulasz;10
-leczo;12
-tatar;6
-bigos;7
+gulasz węgierki;10
+leczo klasyczne;12
+tatar wołowy;6
+bigos po staropolsku;7
 sałatka jarzynowa;6
 kotlet schabowy;12
-gołąbek;12
 naleśniki serowe;8
 pierogi ruskie;8
-golonka;20
+golonka staropolska;20
 placki ziemniaczane;10
-frytki;5
-kasza;5
-ziemniaki;5
-ryż;4
-kawa;4
-herbata;4
-sok;4
-mleko;4
-woda;3
-sernik;9
-jabłecznik;9
+frytki belgijskie;5
+kasza gryczana;5
+ziemniaki polskie;5
+ryż biały;4
+kawa parzona;4
+herbata tradycyjna;4
+herbata ziolona;4
+sok jabłkowy;4
+woda mineralna;3
+sernik na zimno;9
+jabłecznik biszkoptowy;9

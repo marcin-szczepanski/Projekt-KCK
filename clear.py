@@ -60,4 +60,4 @@ def wordtoinfinitive(s = '', file = "dictionary.dic" ):
 
 ###test
 
-print (wordtoinfinitive(clearbadwords("Poproszę o schabowego z frytkami i kapusta kiszona")))
+print (wordtoinfinitive(clearbadwords("Poproszę o schabowego z frytkami i kapustą kiszoną oraz proszę o znaleźlibyście")))

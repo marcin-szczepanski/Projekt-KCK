@@ -1,4 +1,4 @@
-jajecznica tradycyjna;6
+﻿jajecznica tradycyjna;6
 omlet owsiany;5
 rosół tradycyjny;7
 zupa pomidorowa;5
@@ -6,7 +6,7 @@ zupa jarzynowa;5
 zupa grzybowa;6
 żurek staropolski;5
 barszcz ukraiński;6
-gulasz węgierki;10
+gulasz węgierski;10
 leczo klasyczne;12
 tatar wołowy;6
 bigos po staropolsku;7
@@ -22,7 +22,7 @@ ziemniaki polskie;5
 ryż biały;4
 kawa parzona;4
 herbata tradycyjna;4
-herbata ziolona;4
+herbata zielona;4
 sok jabłkowy;4
 woda mineralna;3
 sernik na zimno;9

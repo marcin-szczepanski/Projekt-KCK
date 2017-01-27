@@ -47,7 +47,6 @@ class Ui_MainWindow(object):
         self.Wpisywanie = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.Wpisywanie.setGeometry(QtCore.QRect(130, 600, 221, 31))
         self.Wpisywanie.setObjectName("Wpisywanie")
-        #self.Wpisywanie.keyPressEvent.connect(self.Wyslanie)
         self.label_obraz = QtWidgets.QLabel(self.centralwidget)
         self.label_obraz.setGeometry(QtCore.QRect(650, 0, 441, 261))
         self.label_obraz.setText("")
@@ -110,6 +109,7 @@ class Ui_MainWindow(object):
         self.nrstolika.setObjectName("label")
         self.podane=0
         self.podanemenu=0
+        self.kelner_przy_stoliku=0
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
@@ -133,39 +133,43 @@ class Ui_MainWindow(object):
     def Wyslanie(self):  #pobieranie tekstu wpisywanego przez klienta i wypisywanie go w logach
         wpisywany_in= self.Wpisywanie.toPlainText()
         self.comboBox.setEnabled(0)
-        if len(wpisywany_in)>0:
-            wpisywany_out="Klient: "+wpisywany_in+"\n"
-            self.Logi.insertPlainText(wpisywany_out)
-            odpowiedz_in="to odp kelnera"
-            odpowiedz_out="Kelner: "+odpowiedz_in+"\n"
-            self.Logi.insertPlainText(odpowiedz_out)
-            self.Komunikowanie()
-            self.Wpisywanie.clear()
-            logit = open("log.txt", "a")
-            logit.write(self.Logi.toPlainText())
-            logit.close()
-            if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
-                self.podane=1
-                if "1" == self.comboBox.currentText():
-                    self.label_obraz.setPixmap(QtGui.QPixmap("j1.jpg"))
-                if "2" == self.comboBox.currentText():
-                    self.label_obraz.setPixmap(QtGui.QPixmap("j2.jpg"))
-                if "3" == self.comboBox.currentText():
-                    self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
-                if "4" == self.comboBox.currentText():
-                    self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
-            if wpisywany_in=="podaj menu":
-                self.Menu.show()
-                self.label_menu.show()
-            if wpisywany_in=="podaj danie":
-                podane_danie_in="bułka z chlebem"
-                podane_danie_out=podane_danie_in+"\n"
-                self.Stolik.insertPlainText(podane_danie_out)
-
+        if self.kelner_przy_stoliku!=0:
+            if len(wpisywany_in)>0:
+                wpisywany_out="Klient: "+wpisywany_in+"\n"
+                self.Logi.insertPlainText(wpisywany_out)
+                odpowiedz_in="to odp kelnera"
+                odpowiedz_out="Kelner: "+odpowiedz_in+"\n"
+                self.Logi.insertPlainText(odpowiedz_out)
+                self.Komunikowanie()
+                self.Wpisywanie.clear()
+                logit = open("log.txt", "a")
+                logit.write(self.Logi.toPlainText())
+                logit.close()
+                if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
+                    self.podane=1
+                    if "1" == self.comboBox.currentText():
+                        self.label_obraz.setPixmap(QtGui.QPixmap("j1.jpg"))
+                    if "2" == self.comboBox.currentText():
+                        self.label_obraz.setPixmap(QtGui.QPixmap("j2.jpg"))
+                    if "3" == self.comboBox.currentText():
+                        self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
+                    if "4" == self.comboBox.currentText():
+                        self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
+                if wpisywany_in=="podaj menu":
+                    self.Menu.show()
+                    self.label_menu.show()
+                if wpisywany_in=="podaj danie":
+                    podane_danie_in="bułka z chlebem"
+                    podane_danie_out=podane_danie_in+"\n"
+                    self.Stolik.insertPlainText(podane_danie_out)
+            else:
+                self.Komunikaty.insertPlainText("Wpisz tekst przed wysłaniem!\n")
         else:
-            self.Komunikaty.insertPlainText("Wpisz tekst przed wysłaniem!\n")
+            self.Komunikowanie()
+
 
     def WolajKelnera(self): #zawołanie kelnera
+        self.kelner_przy_stoliku=1
         if self.podane==0:
             if "1" == self.comboBox.currentText():
                 self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
@@ -186,9 +190,15 @@ class Ui_MainWindow(object):
                 self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
 
     def Komunikowanie(self):
-        komunikat_in="komunikat 1"
-        komunikat_out=komunikat_in+"\n"
-        self.Komunikaty.insertPlainText(komunikat_out)
+        if self.kelner_przy_stoliku==0:
+            komunikat_in="Aby porozmawiać z kelnerem musisz najpierw go zawołać."
+            komunikat_out=komunikat_in+"\n"
+            self.Komunikaty.insertPlainText(komunikat_out)
+        else:
+            komunikat_in="komunikat 1"
+            komunikat_out=komunikat_in+"\n"
+            self.Komunikaty.insertPlainText(komunikat_out)
+
 
 
 

@@ -72,6 +72,7 @@ class Ui_MainWindow(object):
         font.setPointSize(16)
         self.label_menu.setFont(font)
         self.label_menu.setObjectName("label_menu")
+        self.label_menu.hide()
         self.label_stolik = QtWidgets.QLabel(self.centralwidget)
         self.label_stolik.setGeometry(QtCore.QRect(920, 270, 161, 31))
         font = QtGui.QFont()
@@ -86,6 +87,7 @@ class Ui_MainWindow(object):
         self.Menu.setGeometry(QtCore.QRect(470, 300, 291, 331))
         self.Menu.setObjectName("Menu")
         self.Menu.setReadOnly(True)
+        self.Menu.hide()
         self.Stolik = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.Stolik.setGeometry(QtCore.QRect(800, 300, 291, 331))
         self.Stolik.setObjectName("Stolik")
@@ -107,6 +109,7 @@ class Ui_MainWindow(object):
         self.nrstolika.setGeometry(QtCore.QRect(510, 150, 121, 21))
         self.nrstolika.setObjectName("label")
         self.podane=0
+        self.podanemenu=0
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
@@ -151,6 +154,14 @@ class Ui_MainWindow(object):
                     self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
                 if "4" == self.comboBox.currentText():
                     self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
+            if wpisywany_in=="podaj menu":
+                self.Menu.show()
+                self.label_menu.show()
+            if wpisywany_in=="podaj danie":
+                podane_danie_in="bułka z chlebem"
+                podane_danie_out=podane_danie_in+"\n"
+                self.Stolik.insertPlainText(podane_danie_out)
+
         else:
             self.Komunikaty.insertPlainText("Wpisz tekst przed wysłaniem!\n")
 

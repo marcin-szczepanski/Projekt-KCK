@@ -30,6 +30,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1215, 691)
+        MainWindow.setWindowIcon((QIcon('icon.png')) )
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.Logi = QtWidgets.QTextEdit(self.centralwidget)
@@ -44,9 +45,10 @@ class Ui_MainWindow(object):
         self.Komunikaty.setGeometry(QtCore.QRect(130, 30, 291, 221))
         self.Komunikaty.setReadOnly(True)
         self.Komunikaty.setObjectName("Komunikaty")
-        self.Wpisywanie = QtWidgets.QPlainTextEdit(self.centralwidget)
+        self.Wpisywanie = QtWidgets.QLineEdit(self.centralwidget)
         self.Wpisywanie.setGeometry(QtCore.QRect(130, 600, 221, 31))
         self.Wpisywanie.setObjectName("Wpisywanie")
+        self.Wpisywanie.returnPressed.connect(self.Wyslanie)
         self.label_obraz = QtWidgets.QLabel(self.centralwidget)
         self.label_obraz.setGeometry(QtCore.QRect(650, 0, 441, 261))
         self.label_obraz.setText("")
@@ -97,42 +99,37 @@ class Ui_MainWindow(object):
         text = codecs.open("menu.txt", "r", "utf-8").read()
         a=text.replace(";","    ")
         self.Menu.insertPlainText(a)
-        self.comboBox = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox.setGeometry(QtCore.QRect(580, 150, 69, 22))
-        self.comboBox.setObjectName("comboBox")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.nrstolika = QtWidgets.QLabel(self.centralwidget)
-        self.nrstolika.setGeometry(QtCore.QRect(510, 150, 121, 21))
-        self.nrstolika.setObjectName("label")
         self.podane=0
         self.podanemenu=0
         self.kelner_przy_stoliku=0
+        self.numerstolika=0
         MainWindow.setStatusBar(self.statusbar)
-
+        msg = QtWidgets.QInputDialog()
+        msg.isComboBoxEditable()
+        msg.setLabelText("Wybierz stolik")
+        a=("1","2","3","4")
+        msg.setComboBoxItems(a)
+        msg.setWindowTitle("Wybór stolika")
+        msg.setWindowIcon(QIcon('icon.png'))
+        retval = msg.exec_()
+        if retval == 0:
+            sys.exit()
+        self.numerstolika=msg.textValue()
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Automatyczny kelner - Projekt KCK"))
         self.Wyslij.setText(_translate("MainWindow", "Wyślij"))
         self.label_rozmowa.setText(_translate("MainWindow", "Rozmowa"))
         self.label_komunikaty.setText(_translate("MainWindow", "Komunikaty"))
         self.label_menu.setText(_translate("MainWindow", "Menu"))
         self.label_stolik.setText(_translate("MainWindow", "Stolik"))
         self.Kelner.setText(_translate("MainWindow", "Zawołaj kelnera"))
-        self.nrstolika.setText(_translate("MainWindow", "Numer stolika:"))
-        self.comboBox.setItemText(0, _translate("MainWindow", "1"))
-        self.comboBox.setItemText(1, _translate("MainWindow", "2"))
-        self.comboBox.setItemText(2, _translate("MainWindow", "3"))
-        self.comboBox.setItemText(3, _translate("MainWindow", "4"))
 
     def Wyslanie(self):  #pobieranie tekstu wpisywanego przez klienta i wypisywanie go w logach
-        wpisywany_in= self.Wpisywanie.toPlainText()
-        self.comboBox.setEnabled(0)
+        wpisywany_in= self.Wpisywanie.text()
         if self.kelner_przy_stoliku!=0:
             if len(wpisywany_in)>0:
                 wpisywany_out="Klient: "+wpisywany_in+"\n"
@@ -147,17 +144,20 @@ class Ui_MainWindow(object):
                 logit.close()
                 if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
                     self.podane=1
-                    if "1" == self.comboBox.currentText():
+                    if "1" == self.numerstolika:
                         self.label_obraz.setPixmap(QtGui.QPixmap("j1.jpg"))
-                    if "2" == self.comboBox.currentText():
+                    if "2" == self.numerstolika:
                         self.label_obraz.setPixmap(QtGui.QPixmap("j2.jpg"))
-                    if "3" == self.comboBox.currentText():
+                    if "3" == self.numerstolika:
                         self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
-                    if "4" == self.comboBox.currentText():
+                    if "4" == self.numerstolika:
                         self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
                 if wpisywany_in=="podaj menu":
                     self.Menu.show()
                     self.label_menu.show()
+                if wpisywany_in=="zabierz menu":
+                    self.Menu.hide()
+                    self.label_menu.hide()
                 if wpisywany_in=="podaj danie":
                     podane_danie_in="bułka z chlebem"
                     podane_danie_out=podane_danie_in+"\n"
@@ -171,22 +171,22 @@ class Ui_MainWindow(object):
     def WolajKelnera(self): #zawołanie kelnera
         self.kelner_przy_stoliku=1
         if self.podane==0:
-            if "1" == self.comboBox.currentText():
+            if "1" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
-            if "2" == self.comboBox.currentText():
+            if "2" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
-            if "3" == self.comboBox.currentText():
+            if "3" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
-            if "4" == self.comboBox.currentText():
+            if "4" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
         else:
-            if "1" == self.comboBox.currentText():
+            if "1" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("p1.jpg"))
-            if "2" == self.comboBox.currentText():
+            if "2" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("p2.jpg"))
-            if "3" == self.comboBox.currentText():
+            if "3" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("p3.jpg"))
-            if "4" == self.comboBox.currentText():
+            if "4" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
 
     def Komunikowanie(self):
@@ -199,6 +199,10 @@ class Ui_MainWindow(object):
             komunikat_out=komunikat_in+"\n"
             self.Komunikaty.insertPlainText(komunikat_out)
 
+
+    def keyPressEvent(self, event):
+        if event.key() == QtCore.Qt.Key_Escape:
+            print("esc")
 
 
 
@@ -213,10 +217,4 @@ if __name__ == "__main__":  #wyswietlanie grafiki - start
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
-    #ui.label_obraz.setPixmap(QtGui.QPixmap("restauracja2.jpg"))
-    #s="xcv"
-    #ui.Logi.setPlainText(s)    #ustawienie tekstu ze stringa
-    #g=ui.Logi.toPlainText()  #pobranie stringa z pola
-    #ui.Wpisywanie.insertPlainText(g)
-    #ui.Logi.insertPlainText(ui.Wpisywanie.toPlainText())#wstawienie
     sys.exit(app.exec_())

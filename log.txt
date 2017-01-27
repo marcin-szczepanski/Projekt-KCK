@@ -155,3 +155,93 @@ Klient: podaj danie
 Kelner: to odp kelnera
 Klient: podaj danie
 Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+
+
+Kelner: to odp kelnera
+Klient: a
+Kelner: to odp kelnera
+Klient: a
+Kelner: to odp kelnera
+Klient: dsadsadsa
+
+Kelner: to odp kelnera
+Klient: dsadsasad
+Kelner: to odp kelnera
+Klient: dsadsasad
+Kelner: to odp kelnera
+Klient: dsadsadadsadsadsa
+Kelner: to odp kelnera
+Klient: dsadsasad
+Kelner: to odp kelnera
+Klient: dsadsadadsadsadsa
+Kelner: to odp kelnera
+Klient: nie wiem
+Kelner: to odp kelnera
+Klient: a
+Kelner: to odp kelnera
+Klient: a
+Kelner: to odp kelnera
+Klient: 4
+Kelner: to odp kelnera
+Klient: a
+Kelner: to odp kelnera
+Klient: 4
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: dsadsa
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: dsada
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: zabierz menu
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: zabierz menu
+Kelner: to odp kelnera

@@ -1,0 +1,2 @@
+Klient: a
+Kelner: to odp kelnera

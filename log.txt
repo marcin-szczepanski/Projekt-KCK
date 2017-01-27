@@ -245,3 +245,99 @@ Klient: podaj menu
 Kelner: to odp kelnera
 Klient: zabierz menu
 Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj menu
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: podaj danie
+Kelner: to odp kelnera
+Klient: dsa
+Kelner: to odp kelnera
+Klient: dsa
+Kelner: to odp kelnera
+Klient: dsadsa
+Kelner: to odp kelnera
+Klient: dasdassa
+Kelner:to odp kelnera
+Klient: aa
+Kelner:to odp kelnera
+Klient: aa
+Kelner:to odp kelnera
+Klient: podaj jedznie
+Kelner:to odp kelnera
+Klient: aa
+Kelner:to odp kelnera
+Klient: podaj jedznie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: aa
+Kelner:to odp kelnera
+Klient: podaj jedznie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: zabierz jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: dawaj jedznie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: dawaj jedznie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: zabierz jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: podaj jedzenie
+Kelner:to odp kelnera
+Klient: dawaj jedzenie
+Kelner:to odp kelnera
+Klient: zabierz jedzenie
+Kelner:to odp kelnera

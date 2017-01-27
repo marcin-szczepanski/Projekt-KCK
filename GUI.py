@@ -135,38 +135,56 @@ class Ui_MainWindow(object):
                 wpisywany_out="Klient: "+wpisywany_in+"\n"
                 self.Logi.insertPlainText(wpisywany_out)
                 odpowiedz_in="to odp kelnera"
-                odpowiedz_out="Kelner: "+odpowiedz_in+"\n"
-                self.Logi.insertPlainText(odpowiedz_out)
-                self.Komunikowanie()
+                self.OdpowiedzKelnera(odpowiedz_in)
+                blablabla="konmunikat1"
+                self.Komunikowanie(blablabla)
                 self.Wpisywanie.clear()
                 logit = open("log.txt", "a")
                 logit.write(self.Logi.toPlainText())
                 logit.close()
                 if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
-                    self.podane=1
-                    if "1" == self.numerstolika:
-                        self.label_obraz.setPixmap(QtGui.QPixmap("j1.jpg"))
-                    if "2" == self.numerstolika:
-                        self.label_obraz.setPixmap(QtGui.QPixmap("j2.jpg"))
-                    if "3" == self.numerstolika:
-                        self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
-                    if "4" == self.numerstolika:
-                        self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
+                    self.PodajJedzenie()
                 if wpisywany_in=="podaj menu":
+                    self.PodajMenu()
+                if wpisywany_in=="zabierz menu":
+                    self.ZabierzMenu()
+                if wpisywany_in=="podaj danie":
+                    jedzonko="bułka z chlebem"
+                    self.PodajDanie(jedzonko)
+                if wpisywany_in=="zabierz jedzenie":
+                    self.ZabierzJedzenie()
+            else:
+                self.Komunikowanie("Wpisz tekst przed wysłaniem!")
+        else:
+            self.Komunikowanie("Aby porozmawiać z kelnerem musisz najpierw go zawołać.")
+
+
+    def PodajMenu(self):
                     self.Menu.show()
                     self.label_menu.show()
-                if wpisywany_in=="zabierz menu":
+
+    def ZabierzMenu(self):
                     self.Menu.hide()
                     self.label_menu.hide()
-                if wpisywany_in=="podaj danie":
-                    podane_danie_in="bułka z chlebem"
-                    podane_danie_out=podane_danie_in+"\n"
-                    self.Stolik.insertPlainText(podane_danie_out)
-            else:
-                self.Komunikaty.insertPlainText("Wpisz tekst przed wysłaniem!\n")
-        else:
-            self.Komunikowanie()
 
+    def PodajDanie(self, podane_danie_in):
+        """
+        :type podane_danie_in: string
+        """
+        podane_danie_out=podane_danie_in+"\n"
+        self.Stolik.insertPlainText(podane_danie_out)
+        self.PodajJedzenie()
+
+    def PodajJedzenie(self):
+         self.podane=1
+         if "1" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("j1.jpg"))
+         if "2" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("j2.jpg"))
+         if "3" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
+         if "4" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
 
     def WolajKelnera(self): #zawołanie kelnera
         self.kelner_przy_stoliku=1
@@ -189,15 +207,30 @@ class Ui_MainWindow(object):
             if "4" == self.numerstolika:
                 self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
 
-    def Komunikowanie(self):
-        if self.kelner_przy_stoliku==0:
-            komunikat_in="Aby porozmawiać z kelnerem musisz najpierw go zawołać."
-            komunikat_out=komunikat_in+"\n"
-            self.Komunikaty.insertPlainText(komunikat_out)
-        else:
-            komunikat_in="komunikat 1"
-            komunikat_out=komunikat_in+"\n"
-            self.Komunikaty.insertPlainText(komunikat_out)
+    def ZabierzJedzenie(self):
+         self.podane=0
+         if "1" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
+         if "2" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
+         if "3" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
+         if "4" == self.numerstolika:
+            self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
+
+    def Komunikowanie(self, komunikat_in):
+         """
+         :type komunikat_in: string
+         """
+         komunikat_out=komunikat_in+"\n"
+         self.Komunikaty.insertPlainText(komunikat_out)
+
+    def OdpowiedzKelnera(self, odp_kelnera_in):
+         """
+         :type odp_kelnera_in: string
+         """
+         odp_kelnera_out="Kelner:"+odp_kelnera_in+"\n"
+         self.Logi.insertPlainText(odp_kelnera_out)
 
 
     def keyPressEvent(self, event):

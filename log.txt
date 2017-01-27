@@ -1,2 +1,28 @@
-Klient: a
+Klient: dsadsa
+Kelner: to odp kelnera
+Klient: adsadsa
+Kelner: to odp kelnera
+Klient: adsadsa
+Kelner: to odp kelnera
+Klient: dsadsada
+Kelner: to odp kelnera
+Klient: bu
+Kelner: to odp kelnera
+Klient: ad
+Kelner: to odp kelnera
+Klient: dadsa
+Kelner: to odp kelnera
+Klient: djksa
+Kelner: to odp kelnera
+Klient: dsadsa
+Kelner: to odp kelnera
+Klient: dsadsa
+Kelner: to odp kelnera
+Klient: dsadsa
+Kelner: to odp kelnera
+Klient: 3
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
+Kelner: to odp kelnera
+Klient: dawaj jedzenie
 Kelner: to odp kelnera

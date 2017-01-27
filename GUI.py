@@ -19,6 +19,7 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+from PyQt5.QtCore import pyqtSlot
 import sys
 import codecs
 
@@ -46,26 +47,13 @@ class Ui_MainWindow(object):
         self.Wpisywanie = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.Wpisywanie.setGeometry(QtCore.QRect(130, 600, 221, 31))
         self.Wpisywanie.setObjectName("Wpisywanie")
+        #self.Wpisywanie.keyPressEvent.connect(self.Wyslanie)
         self.label_obraz = QtWidgets.QLabel(self.centralwidget)
         self.label_obraz.setGeometry(QtCore.QRect(650, 0, 441, 261))
         self.label_obraz.setText("")
         self.label_obraz.setPixmap(QtGui.QPixmap("restauracja1.jpg"))
         self.label_obraz.setScaledContents(True)
         self.label_obraz.setObjectName("label_obraz")
-        self.Stolik1 = QtWidgets.QCheckBox(self.centralwidget)
-        self.Stolik1.setGeometry(QtCore.QRect(580, 70, 70, 17))
-        self.Stolik1.setChecked(False)
-        self.Stolik1.setObjectName("Stolik1")
-        self.Stolik2 = QtWidgets.QCheckBox(self.centralwidget)
-        self.Stolik2.setGeometry(QtCore.QRect(580, 100, 70, 17))
-        self.Stolik2.setObjectName("Stolik2")
-        self.Stolik3 = QtWidgets.QCheckBox(self.centralwidget)
-        self.Stolik3.setGeometry(QtCore.QRect(580, 130, 70, 17))
-        self.Stolik3.setChecked(True)
-        self.Stolik3.setObjectName("Stolik3")
-        self.Stolik4 = QtWidgets.QCheckBox(self.centralwidget)
-        self.Stolik4.setGeometry(QtCore.QRect(580, 160, 70, 17))
-        self.Stolik4.setObjectName("Stolik4")
         self.label_rozmowa = QtWidgets.QLabel(self.centralwidget)
         self.label_rozmowa.setGeometry(QtCore.QRect(220, 270, 211, 31))
         font = QtGui.QFont()
@@ -106,11 +94,20 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         text = codecs.open("menu.txt", "r", "utf-8").read()
-        self.Menu.insertPlainText(text)
+        a=text.replace(";","    ")
+        self.Menu.insertPlainText(a)
+        self.comboBox = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox.setGeometry(QtCore.QRect(580, 150, 69, 22))
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.nrstolika = QtWidgets.QLabel(self.centralwidget)
+        self.nrstolika.setGeometry(QtCore.QRect(510, 150, 121, 21))
+        self.nrstolika.setObjectName("label")
+        self.podane=0
         MainWindow.setStatusBar(self.statusbar)
-
-
-
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -119,36 +116,71 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.Wyslij.setText(_translate("MainWindow", "Wyślij"))
-        self.Stolik1.setText(_translate("MainWindow", "Stolik 1"))
-        self.Stolik2.setText(_translate("MainWindow", "Stolik 2"))
-        self.Stolik3.setText(_translate("MainWindow", "Stolik 3"))
-        self.Stolik4.setText(_translate("MainWindow", "Stolik 4"))
         self.label_rozmowa.setText(_translate("MainWindow", "Rozmowa"))
         self.label_komunikaty.setText(_translate("MainWindow", "Komunikaty"))
         self.label_menu.setText(_translate("MainWindow", "Menu"))
         self.label_stolik.setText(_translate("MainWindow", "Stolik"))
         self.Kelner.setText(_translate("MainWindow", "Zawołaj kelnera"))
+        self.nrstolika.setText(_translate("MainWindow", "Numer stolika:"))
+        self.comboBox.setItemText(0, _translate("MainWindow", "1"))
+        self.comboBox.setItemText(1, _translate("MainWindow", "2"))
+        self.comboBox.setItemText(2, _translate("MainWindow", "3"))
+        self.comboBox.setItemText(3, _translate("MainWindow", "4"))
 
     def Wyslanie(self):  #pobieranie tekstu wpisywanego przez klienta i wypisywanie go w logach
         wpisywany_in= self.Wpisywanie.toPlainText()
-        wpisywany_out="Klient: "+wpisywany_in+"\n"
-        self.Logi.insertPlainText(wpisywany_out)
-        odpowiedz_in="to odp kelnera"
-        odpowiedz_out="Kelner: "+odpowiedz_in+"\n"
-        self.Logi.insertPlainText(odpowiedz_out)
-        self.Komunikowanie()
-        self.Wpisywanie.clear()
-        with open('log.txt', 'w') as yourFile:
-            yourFile.write(str(self.Logi.toPlainText()))
-
+        self.comboBox.setEnabled(0)
+        if len(wpisywany_in)>0:
+            wpisywany_out="Klient: "+wpisywany_in+"\n"
+            self.Logi.insertPlainText(wpisywany_out)
+            odpowiedz_in="to odp kelnera"
+            odpowiedz_out="Kelner: "+odpowiedz_in+"\n"
+            self.Logi.insertPlainText(odpowiedz_out)
+            self.Komunikowanie()
+            self.Wpisywanie.clear()
+            logit = open("log.txt", "a")
+            logit.write(self.Logi.toPlainText())
+            logit.close()
+            if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
+                self.podane=1
+                if "1" == self.comboBox.currentText():
+                    self.label_obraz.setPixmap(QtGui.QPixmap("j1.jpg"))
+                if "2" == self.comboBox.currentText():
+                    self.label_obraz.setPixmap(QtGui.QPixmap("j2.jpg"))
+                if "3" == self.comboBox.currentText():
+                    self.label_obraz.setPixmap(QtGui.QPixmap("j3.jpg"))
+                if "4" == self.comboBox.currentText():
+                    self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
+        else:
+            self.Komunikaty.insertPlainText("Wpisz tekst przed wysłaniem!\n")
 
     def WolajKelnera(self): #zawołanie kelnera
-        self.label_obraz.setPixmap(QtGui.QPixmap("restauracja2.jpg"))
+        if self.podane==0:
+            if "1" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
+            if "2" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
+            if "3" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
+            if "4" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
+        else:
+            if "1" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("p1.jpg"))
+            if "2" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("p2.jpg"))
+            if "3" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("p3.jpg"))
+            if "4" == self.comboBox.currentText():
+                self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
 
     def Komunikowanie(self):
         komunikat_in="komunikat 1"
         komunikat_out=komunikat_in+"\n"
         self.Komunikaty.insertPlainText(komunikat_out)
+
+
+
 
 
 

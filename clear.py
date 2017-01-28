@@ -76,6 +76,6 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
 ##jajecznica tradycyjna omlet owsiany rosół tradycyjny zupa pomidorowa zupa jarzynowa zupa grzybowa żurek staropolski barszcz ukraiński gulasz węgierski leczo klasyczne tatar wołowy bigos po staropolsku sałatka jarzynowa kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy
 
 
-print (wordtoinfinitive("tatar wołowy dwa bigosy po staropolsku trzy sałatki jarzynowe kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy"))
+##print (wordtoinfinitive("tatar wołowy dwa bigosy po staropolsku trzy sałatki jarzynowe kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy"))
 
 

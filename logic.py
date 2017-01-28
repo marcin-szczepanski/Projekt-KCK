@@ -1,5 +1,6 @@
 ### koduje Marcin
 import linecache
+import clear
 
 ### na samym dole uwagi do części Wojtka i Kingi!!!
 
@@ -130,7 +131,10 @@ def whataction(word, file = "synonymous_words.txt" ):
     return(action, how_many_args)
 
 
-def understanding(wordlist = '', listofpartsofspeech = ''):
+def understanding(s):
+	x=clear.wordtoinfinitive(s)
+	wordlist = x[0]
+	listofpartsofspeech = x[1]
 	list = createobjectslist(wordlist, listofpartsofspeech)
 	count = len(list)
 	action = "error"
@@ -155,8 +159,10 @@ def understanding(wordlist = '', listofpartsofspeech = ''):
 		method()
 	return
 
+understanding("zamówić jajecznica tradycyjna omlet owsiany rosół tradycyjny zupa pomidorowa zupa jarzynowa zupa grzybowa żurek staropolski barszcz ukraiński gulasz węgierski leczo klasyczne tatar wołowy bigos po staropolsku sałatka jarzynowa kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy")
+
 ### test
-print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
+##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 
 
 ### Wojtek - zrób, proszę takie coś, żeby przed rzeczownikiem jeśli stoi liczebnik np. "dwa" to żeby zamieniało go na postać liczbową; jeśli przed rzeczownikiem nie ma liczebnika to postaw na sztywno 1 i w stringu z częściami moży w odpowiednim miejscu NUMCRD

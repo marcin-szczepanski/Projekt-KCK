@@ -96,7 +96,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
-        text = codecs.open("menu.txt", "r", "utf-8").read()
+        text = codecs.open("menuPLN.txt", "r", "utf-8").read()
         a=text.replace(";","    ")
         self.Menu.insertPlainText(a)
         self.podane=0

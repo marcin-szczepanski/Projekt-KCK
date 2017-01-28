@@ -29,7 +29,7 @@ def fromMenutoList(): #wczytuje menu.txt i tworzy z niego listę
 
 
 def menuOdmienionetoArray(): #wczytuje plik menuOdmienione i tworzy z niego listę
-    with open('menuOdmienione', 'r', encoding='utf-8') as f:
+    with open('menuOdmienione.txt', 'r', encoding='utf-8') as f:
         results = []
         for line in f:
             results.append(line.strip().split(';'))
@@ -88,6 +88,6 @@ def zaplac(): # funkcja do placenia, oblicza sume zamowienia
 
 
 
-list = [[20, "pierogi ruskie"],[1, "sałatka jarzynowa"],[3, "naleśniki z serem"],[1, "pomidor"],[4,"jabłecznik"]]
+list = [[20, "pierogi ruskie"],[1, "sałatka jarzynowa"],[3, "naleśniki serowe"],[1, "pizza"],[4,"jabłecznik"]]
 zamowF(list)
 zaplac()

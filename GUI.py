@@ -139,9 +139,9 @@ class Ui_MainWindow(object):
                 blablabla="konmunikat1"
                 self.Komunikowanie(blablabla)
                 self.Wpisywanie.clear()
-                logit = open("log.txt", "a")
-                logit.write(self.Logi.toPlainText())
-                logit.close()
+                #logit = open("log.txt", "a")
+                #logit.write(self.Logi.toPlainText())
+                #logit.close()
                 if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
                     self.PodajJedzenie()
                 if wpisywany_in=="podaj menu":

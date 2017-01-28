@@ -1,3 +1,3 @@
 rachunek;paragon;podsumowanie;zaplac
-przyniesienie;talerz;talerze;naczynia;menu;karta;sztućce;widelec;widelce;nóż;noże;łyżka;łyżki;łyżeczka;łyżeczki;przyniesF
-zabranie;talerz;talerze;naczynia;menu;karta;sztućce;widelec;widelce;nóż;noże;łyżka;łyżki;łyżeczka;łyżeczki;zabierz
+zabrać;wziąć;zabierać;zabranie;zabierz
+dać;dawać;podać;podawać;przynieść;przynosić;przyniesienie;talerz;talerze;naczynia;menu;karta;sztućce;widelec;widelce;nóż;noże;łyżka;łyżki;łyżeczka;łyżeczki;przyniesF

@@ -3,7 +3,7 @@ płacić;zapłacić;wpłacić;zaplac;0
 polecić;zaproponować;proponować;polecać;mieć;zarekomedować;rekomendować;polec;0
 podejść;przyjść;podejdz;0
 odejść;iść;odejdz;0
-dać;dawać;podać;podawać;prosić;poprosić;przynieść;przynosić;zabrać;wziąć;zabierać;prosic;1
+zabrać;wziąć;zabierać;zabierz;1
+dać;dawać;podać;podawać;prosić;poprosić;przynieść;przynosić;prosic;1
 przyniesF;1
-zabierz;1
 error;0

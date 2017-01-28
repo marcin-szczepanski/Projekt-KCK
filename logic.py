@@ -53,7 +53,6 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
         else:
             danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
             return (danie_blad, "Niestety dania nie ma w naszej karcie.","")
-    print (dania_komunikat, "Przyjąłem zamówienie", dania_stolik)
     return (dania_komunikat, "Przyjąłem zamówienie. \n", dania_stolik)
 
 
@@ -212,7 +211,7 @@ def understanding(s):
 		method()
 	return
 
-understanding("poproszę dwie sałatki jarzynowe jedną jajecznicę tradycyjną i bigos staropolski")
+understanding("poproszę menu")
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 

@@ -22,7 +22,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import pyqtSlot
 import sys
 import codecs
-
+import logic
 
 
 
@@ -132,12 +132,14 @@ class Ui_MainWindow(object):
         wpisywany_in= self.Wpisywanie.text()
         if self.kelner_przy_stoliku!=0:
             if len(wpisywany_in)>0:
+                akcja=("","","")
+                akcja=logic.understanding(wpisywany_in)
                 wpisywany_out="Klient: "+wpisywany_in+"\n"
                 self.Logi.insertPlainText(wpisywany_out)
-                odpowiedz_in="to odp kelnera"
-                self.OdpowiedzKelnera(odpowiedz_in)
-                blablabla="konmunikat1"
-                self.Komunikowanie(blablabla)
+                #odpowiedz_in="to odp kelnera"
+                #self.OdpowiedzKelnera(odpowiedz_in)
+                komunikat_in=akcja [0]
+                self.Komunikowanie(komunikat_in)
                 self.Wpisywanie.clear()
                 #logit = open("log.txt", "a")
                 #logit.write(self.Logi.toPlainText())

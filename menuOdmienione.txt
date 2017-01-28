@@ -12,7 +12,6 @@
 1 bigos;2 bigosy;3 bigosy;4 bigosy; bigosów
 1 sałatkę jarzynową;2 sałatki jarzynowe;3 sałatki jarzynowe;4 sałatki jarzynowe; sałatek jarzynowych
 1 kotleta schabowego;2 kotlety schabowe;3 kotlety schabowe;4 kotlety schabowe; kotletów schabowych
-1 gołąbka;2 gołąbki;3 gołąbki;4 gołąbki; gołąbków
 1 naleśniki serowe;2 naleśniki serowe;3 naleśniki serowe;4 naleśniki serowe; naleśników serowe
 1 porcję pierogów ruskich; 2 porcje pierogów ruskich;3 porcje pierogów ruskich;4 porcje pierogów ruskich; porcji pierogów ruskich
 1 golonkę; 2 golonki;3 golonki;4 golonki; golonek
@@ -22,9 +21,9 @@
 1 porcję ziemniaków;2 porcje ziemniaków;3 porcje kziemniaków;4 porcje ziemniaków; porcji ziemniaków
 1 porcję ryżu;2 porcje ryżu;3 porcje ryżu;4 porcje ryżu; porcji ryżu
 1 kawę;2 kawy; 3 kawy; 4 kawy; kaw
-1 herbatę;2 herbaty;3 herbaty;4 herbaty; herbat
+1 herbatę tradycyjną;2 herbaty tradycyjne;3 herbaty tradycyjne;4 herbaty tradycyjne; herbat tradycyjnych
+1 herbatę zieloną;2 herbaty zielone;3 herbaty zielone;4 herbaty zielone; herbat zielonych
 1 sok;2 soki;3 soki;4 soki; soków
-1 szklankę mleka;2 szklanki mleka;3 szklanki mleka;4 szklanki mleka; szklanek mleka
 1 szklankę wody;2 szklanki wody;3 szklanki wody;4 szklanki wody; szklanek wody
 1 sernik;2 serniki;3 serniki;4 serniki; serników
 1 jabłecznik;2 jabłeczniki;3 jabłeczniki;4 jabłeczniki; jabłeczników

@@ -93,7 +93,7 @@ def podejdz():
 def polec():
     x = random.randint(1,13)
     polecam = str(fromMenutoList("Menu_polecane.txt")[x-1]).split(";",2)[0].lower()
-    return("Polecono: " + polecam, "Dzisiaj polecamy " + polecam + "! \n","")
+    return("Polecono: " + polecam+"\n", "Dzisiaj polecamy " + polecam + "! \n","")
 
 def zaplac(): # funkcja do placenia, oblicza sume zamowienia
        return("Kwota do zapłaty to " + str(kwota) + " zł.", "Proszę o zapłatę " + str(kwota) + " \n", str(kwota))

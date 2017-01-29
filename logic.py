@@ -54,7 +54,7 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
         else:
             danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
             return (danie_blad, "Niestety dania nie ma w naszej karcie.","")
-    return (dania_komunikat, "Przyjąłem zamówienie. \n", dania_stolik)
+    return ("Zamówiono: \n" + dania_komunikat, "Przyjąłem zamówienie. \n", dania_stolik)
 
 
 def odmiana(list, i):  #służy do skomplikowania wyjścia, np. zamówiono 2 serniki ale już dla 5 sztuk mamy zamówiono 5 serników

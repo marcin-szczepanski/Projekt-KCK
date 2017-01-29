@@ -115,7 +115,6 @@ def clbadwds(list): ### funkcja czyści niepotrzebne słowa dla funkcji prosic()
 def zamow(list): ### funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
 	meals = []
 	count = len(list)//3
-	print(list)
 	if (len(list) % 3) != 0:
 		return (error())
 	meals = [[[None] for col in range(2)] for row in range(count)]

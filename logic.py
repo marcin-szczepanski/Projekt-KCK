@@ -67,13 +67,17 @@ def odmiana(list, i):  #służy do skomplikowania wyjścia, np. zamówiono 2 ser
 
 def zabierz(list):
     x = list[1][0]
+    if (x=="karta"):
+        x="menu"
     return("Zabrano: " + x + "\n", "Już zabieram. \n", x)
 
 def przyniesF(list):
     if list[0][0] == "przyniesienie":
         list[0][0] = list[1][0]
     x = list[0][0]
-    return("Przyniesiono " + x + "\n", "Proszę bardzo. \n", x)
+    if (x=="karta"):
+        x="menu"
+    return("Przyniesiono: " + x + "\n", "Proszę bardzo. \n", x)
 
 def odejdz():
     return("Kelner odchodzi od stołu \n","","")
@@ -212,8 +216,8 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("poproszę omlet")
-##print(x)
+x=understanding("poproszę o zabranie karta")
+print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 

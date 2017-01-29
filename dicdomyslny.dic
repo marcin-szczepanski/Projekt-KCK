@@ -1835,6 +1835,7 @@ kart;0a,N/
 dañ;0,N/
 dañ;1nie,N/
 dañmi;2,N/
+hej;0,APP/
 rachunek;0,N/
 rachunkach;4ek,N/
 rachunkami;4ek,N/
@@ -2731,3 +2732,5 @@ daj;1æ,V/
 48;0,NUMCRD/
 49;0,NUMCRD/
 50;0,NUMCRD/
+karty;1a,N/
+karty;1,N/

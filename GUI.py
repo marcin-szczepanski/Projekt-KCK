@@ -156,6 +156,16 @@ class Ui_MainWindow(object):
                             self.label_obraz.setPixmap(QtGui.QPixmap("d3.jpg"))
                         if "4" == self.numerstolika:
                             self.label_obraz.setPixmap(QtGui.QPixmap("d4.jpg"))
+                if komunikat_in=="Zabrano: talerz\n":
+                    self.podane=0
+                    if "1" == self.numerstolika:
+                        self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
+                    if "2" == self.numerstolika:
+                         self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
+                    if "3" == self.numerstolika:
+                        self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
+                    if "4" == self.numerstolika:
+                         self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
                 odpowiedz_in=akcja[1]
                 stolik_in=akcja[2]
                 if odpowiedz_in!="":

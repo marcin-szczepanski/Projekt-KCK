@@ -234,11 +234,11 @@ class Ui_MainWindow(object):
                 if "4" == self.numerstolika:
                     self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
             if self.dziendobry==0:
-                self.Logi.insertPlainText("Dzień dobry. W czym mogę pomoc?\n")
+                self.Logi.insertPlainText("Kelner: Dzień dobry. W czym mogę pomóc?\n")
                 self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
                 self.dziendobry=1
             else:
-                self.Logi.insertPlainText("W czym mogę pomoc?\n")
+                self.Logi.insertPlainText("Kelner: W czym mogę pomóc?\n")
                 self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
         self.kelner_przy_stoliku=1
 

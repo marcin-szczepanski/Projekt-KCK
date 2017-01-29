@@ -95,7 +95,7 @@ def error(): ### gdy nie zrozumiemy o co chodzi klientowi :)
 
 ###############################	
 
-def clbadwds(list):
+def clbadwds(list): ### funkcja czyści niepotrzebne słowa dla funkcji prosic()
 	args = []
 	while (list):
 		if list[0][1] != 'NUMCRD':
@@ -159,7 +159,7 @@ def prosic(list, file="words.txt"):
 			ret = method()
 	return (ret)
 
-def createobjectslist(wordlist = '', listofpartsofspeech = ''):
+def createobjectslist(wordlist = '', listofpartsofspeech = ''): ## tworzy listę obiektów: [[słowa],[odpowiadające części mowy]]
 	w = wordlist.split(" ")
 	l = listofpartsofspeech.split(" ")
 	count = len(w)
@@ -216,13 +216,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-x=understanding("poproszę o zabranie karta")
-print(x)
-### test
-##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
-
-
-### Wojtek - zrób, proszę takie coś, żeby przed rzeczownikiem jeśli stoi liczebnik np. "dwa" to żeby zamieniało go na postać liczbową; jeśli przed rzeczownikiem nie ma liczebnika to postaw na sztywno 1 i w stringu z częściami moży w odpowiednim miejscu NUMCRD
-
-### Kinga - przerób, proszę plik menu.txt tak, aby nie zawierał dużych liter (żebym zamiast "Zupa" mógł 2 linijki wyżej napisać "zupa", bo taką postać dostanę od Wojtka;
-### menu.txt powinno zawierać tylko dania, które składają się z jednego rzeczownika i jednego przymiotnika, żeby działało :D
+##x=understanding("poproszę o zabranie karta")
+##print(x)

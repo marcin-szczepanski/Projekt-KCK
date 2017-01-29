@@ -136,26 +136,38 @@ class Ui_MainWindow(object):
                 akcja=logic.understanding(wpisywany_in)
                 wpisywany_out="Klient: "+wpisywany_in+"\n"
                 self.Logi.insertPlainText(wpisywany_out)
-                #odpowiedz_in="to odp kelnera"
-                #self.OdpowiedzKelnera(odpowiedz_in)
                 komunikat_in=akcja [0]
                 self.Komunikaty.insertPlainText(komunikat_in)
+                if komunikat_in=="Przyniesiono menu\n":
+                    self.PodajMenu()
+                if komunikat_in=="Zabrano: menu\n":
+                    self.ZabierzMenu()
+                if komunikat_in=="Kelner odchodzi od stołu \n":
+                    self.kelner_przy_stoliku=0
+                    if self.podane==0:
+                        self.label_obraz.setPixmap(QtGui.QPixmap("restauracja1.jpg"))
+                    else:
+                        if "1" == self.numerstolika:
+                            self.label_obraz.setPixmap(QtGui.QPixmap("d1.jpg"))
+                        if "2" == self.numerstolika:
+                            self.label_obraz.setPixmap(QtGui.QPixmap("d2.jpg"))
+                        if "3" == self.numerstolika:
+                            self.label_obraz.setPixmap(QtGui.QPixmap("d3.jpg"))
+                        if "4" == self.numerstolika:
+                            self.label_obraz.setPixmap(QtGui.QPixmap("d4.jpg"))
+                odpowiedz_in=akcja[1]
+                stolik_in=akcja[2]
+                if odpowiedz_in!="":
+                    odpowiedz_out="Kelner: "+odpowiedz_in
+                    self.Logi.insertPlainText(odpowiedz_out)
+                    if odpowiedz_in=="Przyjąłem zamówienie. \n":
+                        self.PodajDanie(stolik_in)
+                        self.podane=1
                 #self.Komunikowanie(komunikat_in)
                 self.Wpisywanie.clear()
                 #logit = open("log.txt", "a")
                 #logit.write(self.Logi.toPlainText())
                 #logit.close()
-                if wpisywany_in=="dawaj jedzenie":  ##podanie jedzenia
-                    self.PodajJedzenie()
-                if wpisywany_in=="podaj menu":
-                    self.PodajMenu()
-                if wpisywany_in=="zabierz menu":
-                    self.ZabierzMenu()
-                if wpisywany_in=="podaj danie":
-                    jedzonko="bułka z chlebem"
-                    self.PodajDanie(jedzonko)
-                if wpisywany_in=="zabierz jedzenie":
-                    self.ZabierzJedzenie()
             else:
                 self.Komunikowanie("Wpisz tekst przed wysłaniem!")
         else:
@@ -174,8 +186,7 @@ class Ui_MainWindow(object):
         """
         :type podane_danie_in: string
         """
-        podane_danie_out=podane_danie_in+"\n"
-        self.Stolik.insertPlainText(podane_danie_out)
+        self.Stolik.insertPlainText(podane_danie_in)
         self.PodajJedzenie()
 
     def PodajJedzenie(self):

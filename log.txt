@@ -92,3 +92,49 @@ Klient: zabierz menu
 Kelner: Ju¿ zabieram. 
 Klient: zabierz talerze
 Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Witam :) Poproszê menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Witam :) Poproszê menu
+Kelner: Proszê bardzo. 
+Klient: Chcia³bym zamówiæ jajecznicê, 2 roso³y, trzy zupy pomidorowe, siedem lecz klasycznych, dwie wody i sernik.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Witam :) Poproszê menu
+Kelner: Proszê bardzo. 
+Klient: Klient: Chcia³bym zamówiæ jajecznicê, 2 roso³y, trzy zupy pomidorowe, siedem lecz klasycznych, dwie wody i sernik.
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: Chcia³bym zamówiæ jajecznicê, 2 roso³y, trzy zupy pomidorowe, siedem leczy klasycznych, dwie wody i sernik.
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: Chcia³bym zamówiæ jajecznicê, 2 roso³y, trzy zupy pomidorowe, siedem leczy klasycznych, dwie wody i sernik.
+Kelner: Przyj¹³em zamówienie. 
+Klient: I jeszcze poproszê 10 herbat zielonych
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: Chcia³bym zamówiæ jajecznicê, 2 roso³y, trzy zupy pomidorowe, siedem leczy klasycznych, dwie wody i sernik.
+Kelner: Przyj¹³em zamówienie. 
+Klient: I jeszcze poproszê 10 herbat zielonych
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê to wszystko
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: Chcia³bym zamówiæ jajecznicê, 2 roso³y, trzy zupy pomidorowe, siedem leczy klasycznych, dwie wody i sernik.
+Kelner: Przyj¹³em zamówienie. 
+Klient: I jeszcze poproszê 10 herbat zielonych
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê to wszystko
+Kelner: W czym mogê pomóc?
+Klient: Mo¿e pan zabraæ menu
+Kelner: Ju¿ zabieram. 

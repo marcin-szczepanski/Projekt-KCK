@@ -7,7 +7,7 @@
 1 żurek staropolski; 2 żurki staropolskie; 3 żurki staropolskie; 4 żurki staropolskie; żurków staropolskich
 1 barszcz ukraiński; 2  barszcze ukraińskie;3 barszcze ukraińskie;4 barszcze ukraińskie; barszczów ukraińskich
 1 gulasz węgierski;2 gulasze węgierskie;3 gulasze węgierskie;4 gulasze węgierskie; gulaszy węgierskich
-1 leczo klasyczne;2 lecza klasyczne;3 lecza klasyczne;4 lecza klasyczne; lecz klasycznych
+1 leczo klasyczne;2 lecza klasyczne;3 lecza klasyczne;4 lecza klasyczne; leczy klasycznych
 1 sałatkę jarzynową;2 sałatki jarzynowe;3 sałatki jarzynowe;4 sałatki jarzynowe; sałatek jarzynowych
 1 kotleta schabowego;2 kotlety schabowe;3 kotlety schabowe;4 kotlety schabowe; kotletów schabowych
 1 naleśniki serowe;2 naleśniki serowe;3 naleśniki serowe;4 naleśniki serowe; naleśników serowych

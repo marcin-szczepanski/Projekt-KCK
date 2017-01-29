@@ -227,5 +227,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("Wie Pan co, może jeszcze poproszę sok jabłkowy.")
+##x=understanding("Chciałbym zamówić jajecznicę, 2 rosoły, trzy zupy pomidorowe, siedem leczy klasycznych, dwie wody i sernik.")
 ##print(x)

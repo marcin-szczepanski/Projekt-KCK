@@ -113,7 +113,7 @@ class Ui_MainWindow(object):
         msg.setWindowIcon(QIcon('icon.png'))
         retval = msg.exec_()
         if retval == 0:
-            sys.exit()
+            self.infoDialogue()
         self.numerstolika=msg.textValue()
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -169,7 +169,7 @@ class Ui_MainWindow(object):
                         self.podane=1
                 if (komunikat_in.find("Kwota do zapłaty"))!=-1:
                     if akcja[2]=="0":
-                        sys.exit()
+                        self.infoDialogue()
                     pln = QtWidgets.QInputDialog()
                     pln.setLabelText(komunikat_in)
                     pln.setWindowTitle("Zapłata")
@@ -248,17 +248,6 @@ class Ui_MainWindow(object):
                 self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
         self.kelner_przy_stoliku=1
 
-    def ZabierzJedzenie(self):
-         self.podane=0
-         if "1" == self.numerstolika:
-            self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
-         if "2" == self.numerstolika:
-            self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
-         if "3" == self.numerstolika:
-            self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
-         if "4" == self.numerstolika:
-            self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
-
     def Komunikowanie(self, komunikat_in):
          """
          :type komunikat_in: string
@@ -266,20 +255,13 @@ class Ui_MainWindow(object):
          komunikat_out=komunikat_in+"\n"
          self.Komunikaty.insertPlainText(komunikat_out)
 
-    def OdpowiedzKelnera(self, odp_kelnera_in):
-         """
-         :type odp_kelnera_in: string
-         """
-         odp_kelnera_out="Kelner:"+odp_kelnera_in+"\n"
-         self.Logi.insertPlainText(odp_kelnera_out)
-
     def exitowanie(self):
         pln = QtWidgets.QInputDialog()
         akcja=("","","")
         wpisywany_in="Poproszę rachunek"
         akcja=logic.understanding(wpisywany_in)
         if akcja[2]=="0":
-            sys.exit()
+            self.infoDialogue()
         komunikat_in=akcja [0]
         pln.setLabelText(komunikat_in)
         pln.setWindowTitle("Zapłata")
@@ -294,8 +276,9 @@ class Ui_MainWindow(object):
     def infoDialogue(self):
             infoBox = QMessageBox()
             infoBox.setIcon(QMessageBox.Information)
-            infoBox.setText("Dziękujemy i zapraszamy ponowanie. :)")
+            infoBox.setText("Dziękujemy i zapraszamy ponownie. :)")
             infoBox.setWindowTitle("Żegnamy!")
+            infoBox.setWindowIcon(QIcon('icon.png'))
             infoBox.exec_()
             sys.exit()
 

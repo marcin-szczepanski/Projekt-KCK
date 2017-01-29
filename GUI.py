@@ -23,8 +23,22 @@ from PyQt5.QtCore import pyqtSlot
 import sys
 import codecs
 import logic
+can_exit=0
 
-
+class MainWindow(QWidget):
+    def closeEvent(self, event):
+        # do stuff
+        if can_exit:
+            event.accept() # let the window close
+        else:
+            event.ignore()
+    def close(self, event):
+        # do stuff
+        print("dsadsada")
+        if can_exit:
+            event.accept() # let the window close
+        else:
+            event.ignore()
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -271,14 +285,24 @@ class Ui_MainWindow(object):
          odp_kelnera_out="Kelner:"+odp_kelnera_in+"\n"
          self.Logi.insertPlainText(odp_kelnera_out)
 
+    def exitowanie(self):
+        pln = QtWidgets.QInputDialog()
+        akcja=("","","")
+        wpisywany_in="Poproszę rachunek"
+        akcja=logic.understanding(wpisywany_in)
+        komunikat_in=akcja [0]
+        pln.setLabelText(komunikat_in)
+        pln.setWindowTitle("Zapłata")
+        pln.setWindowIcon(QIcon('icon.png'))
+        retval = pln.exec_()
+        while((retval == 0) or (pln.textValue()!=akcja[2])):
+            pln.setLabelText(komunikat_in+"\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
+            retval = pln.exec_()
+        if retval == 1:
+            sys.exit()
 
-    def keyPressEvent(self, event):
-        if event.key() == QtCore.Qt.Key_Escape:
-            print("esc")
-
-
-
-
+def myExitHandler():
+    ui.exitowanie()
 
 
 if __name__ == "__main__":  #wyswietlanie grafiki - start
@@ -289,4 +313,5 @@ if __name__ == "__main__":  #wyswietlanie grafiki - start
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
+    app.aboutToQuit.connect(myExitHandler)
     sys.exit(app.exec_())

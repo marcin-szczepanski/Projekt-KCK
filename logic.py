@@ -40,6 +40,7 @@ def menuOdmienionetoArray(): #wczytuje plik menuOdmienione i tworzy z niego list
 
 def zamowF(list): #na podstawie listy tworzy zamówienie
     a = len(list)
+    print(list)
     tab = []
     dania_komunikat = ""
     dania_stolik = ""
@@ -79,7 +80,7 @@ def odejdz():
     return("Kelner odchodzi od stołu","","")
 
 def polec():
-    x = random.randint(1,19)
+    x = random.randint(1,13)
     polecam = str(fromMenutoList()[x-1]).split(";",2)[0].lower()
     return("Polecono: " + polecam, "Dzisiaj polecamy " + polecam + "! \n")
 
@@ -210,7 +211,7 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("Zamawiam zupę pomidorową i jajecznicę tradycyjną")
+##x=understanding("Zamawiam tatara wołowego")
 ##print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))

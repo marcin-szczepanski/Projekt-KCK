@@ -76,7 +76,7 @@ def przyniesF(list):
     return("Przyniesiono " + x + "\n", "Proszę bardzo. \n", x)
 
 def odejdz():
-    return("Kelner odchodzi od stołu")
+    return("Kelner odchodzi od stołu","","")
 
 def polec():
     x = random.randint(1,19)
@@ -87,7 +87,7 @@ def zaplac(): # funkcja do placenia, oblicza sume zamowienia
        return("Kwota do zapłaty to " + str(kwota) + " zł.", "Proszę o zapłatę " + str(kwota) + " \n", "Rachunek: " + str(kwota))
 	
 def error(): ### gdy nie zrozumiemy o co chodzi klientowi :)
-    return("Nie zrozumiałem.  \n")
+    return("Nie zrozumiałem.  \n","","")
 
 ###############################	
 
@@ -210,8 +210,8 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("podaj menu")
-##print(x)
+x=understanding("Poproszę wodę mineralną")
+print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 

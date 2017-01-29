@@ -79,7 +79,7 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
                 if (czescmowy =="N" and poprzednia!="NUMCRD"):
                     resultcm.append('NUMCRD')
                     resultword.append('1')
-                print(czescmowy)
+                ##print(czescmowy)
                 if (poprzednia == "N" and czescmowy !='ADJ'):
                     print(czescmowy)
                     print(poprzednia)
@@ -95,7 +95,7 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
 
         if(czyznaleziono == 0):
             f_brak.write(word + "\n")
-            print("Brakuje słowa w słowniku: " + word )
+            ##print("Brakuje słowa w słowniku: " + word )
 
     if (czescmowy == "N" and (szukajdania(lastword) != False)):
         resultword.append(szukajdania(word).split()[1])

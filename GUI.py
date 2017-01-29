@@ -138,7 +138,7 @@ class Ui_MainWindow(object):
                 self.Logi.insertPlainText(wpisywany_out)
                 komunikat_in=akcja [0]
                 self.Komunikaty.insertPlainText(komunikat_in)
-                if (komunikat_in=="Przyniesiono menu\n") or (komunikat_in=="Przyniesiono karta\n"):
+                if (komunikat_in=="Przyniesiono: menu\n") or (komunikat_in=="Przyniesiono: karta\n"):
                     self.PodajMenu()
                 if (komunikat_in== "Zabrano: menu\n") or (komunikat_in=="Zabrano: karta\n"):
                     self.ZabierzMenu()

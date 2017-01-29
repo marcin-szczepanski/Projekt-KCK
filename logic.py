@@ -210,7 +210,7 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("Zamawiam tatara wołowego")
+##x=understanding("Zamawiam 5 jajecznic tradycyjnych")
 ##print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))

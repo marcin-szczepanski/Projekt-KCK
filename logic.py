@@ -67,6 +67,8 @@ def odmiana(list, i):  #służy do skomplikowania wyjścia, np. zamówiono 2 ser
 
 def zabierz(list):
     x = list[1][0]
+    if (x=="naczynie"):
+        x="talerz"
     if (x=="karta"):
         x="menu"
     return("Zabrano: " + x + "\n", "Już zabieram. \n", x)

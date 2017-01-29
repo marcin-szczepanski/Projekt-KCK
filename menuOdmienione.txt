@@ -1,19 +1,19 @@
-﻿1 jajecznicę;2 jajecznice;3 jajecznice;4 jajecznice; jajecznic
-1 omlet;2 omlety;3 omlety;4 omlety; omletów
-1 rosół;2 rosoły;3 rosoły; 4 rosoły; rosołów
-1 zupa pomidorowa;2 zupy pomidorowe;3 zupy pomidorowe;4 zupy pomidorowe; zup pomidorowych
-1 zupa jarzynowa;2 zupy jarzynowe;3 zupy jarzynowe;4 zupy jarzynowe; zup jarzynowych
-1 zupa grzybowa;2 zupy grzybowe;3 zupy grzybowe;4 zupy grzybowe; zup grzybowych
-1 żurek; 2 żurki; 3 żurki; 4 żurki; żurków
+﻿1 jajecznicę tradycyjną;2 jajecznice tradycyjne;3 jajecznice tradycyjne;4 jajecznice tradycyjne; jajecznic tradycyjnych
+1 omlet owsiany;2 omlety owsiane;3 omlety owsiane;4 omlety owsiane; omletów owsianych
+1 rosół tradycyjny;2 rosoły tradycyjne;3 rosoły tradycyjne; 4 rosoły tradycyjne; rosołów tradycyjnych
+1 zupę pomidorową;2 zupy pomidorowe;3 zupy pomidorowe;4 zupy pomidorowe; zup pomidorowych
+1 zupę jarzynową;2 zupy jarzynowe;3 zupy jarzynowe;4 zupy jarzynowe; zup jarzynowych
+1 zupę grzybową;2 zupy grzybowe;3 zupy grzybowe;4 zupy grzybowe; zup grzybowych
+1 żurek staropolski; 2 żurki staropolskie; 3 żurki staropolskie; 4 żurki staropolskie; żurków staropolskich
 1 barszcz ukraiński; 2  barszcze ukraińskie;3 barszcze ukraińskie;4 barszcze ukraińskie; barszczów ukraińskich
-1 gulasz;2 gulasze;3 gulasze;4 gulasze; gulaszy
-1 leczo;2 lecza;3 lecza;4 lecza; lecz
+1 gulasz węgierski;2 gulasze węgierskie;3 gulasze węgierskie;4 gulasze węgierskie; gulaszy węgierskich
+1 leczo klasyczne;2 lecza klasyczne;3 lecza klasyczne;4 lecza klasyczne; lecz klasycznych
 1 sałatkę jarzynową;2 sałatki jarzynowe;3 sałatki jarzynowe;4 sałatki jarzynowe; sałatek jarzynowych
 1 kotleta schabowego;2 kotlety schabowe;3 kotlety schabowe;4 kotlety schabowe; kotletów schabowych
 1 naleśniki serowe;2 naleśniki serowe;3 naleśniki serowe;4 naleśniki serowe; naleśników serowych
-1 kawę;2 kawy; 3 kawy; 4 kawy; kaw
+1 kawę parzoną;2 kawy parzone; 3 kawy parzone; 4 kawy parzone; kaw parzonych
 1 herbatę tradycyjną;2 herbaty tradycyjne;3 herbaty tradycyjne;4 herbaty tradycyjne; herbat tradycyjnych
 1 herbatę zieloną;2 herbaty zielone;3 herbaty zielone;4 herbaty zielone; herbat zielonych
-1 sok;2 soki;3 soki;4 soki; soków
+1 sok jabłkowy;2 soki jabłkowe;3 soki jabłkowe;4 soki jabłkowe; soków jabłkowych
 1 szklankę wody;2 szklanki wody;3 szklanki wody;4 szklanki wody; szklanek wody
-1 sernik;2 serniki;3 serniki;4 serniki; serników
+1 sernik biszkoptowy;2 serniki biszkoptowe;3 serniki biszkoptowe;4 serniki biszkoptowe; serników biszkoptowych

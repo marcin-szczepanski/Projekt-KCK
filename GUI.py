@@ -90,7 +90,7 @@ class Ui_MainWindow(object):
         self.Menu.setReadOnly(True)
         self.Menu.hide()
         self.Stolik = QtWidgets.QPlainTextEdit(self.centralwidget)
-        self.Stolik.setGeometry(QtCore.QRect(800, 300, 291, 331))
+        self.Stolik.setGeometry(QtCore.QRect(830, 300, 291, 331))
         self.Stolik.setObjectName("Stolik")
         self.Stolik.setReadOnly(True)
         MainWindow.setCentralWidget(self.centralwidget)
@@ -126,7 +126,7 @@ class Ui_MainWindow(object):
         self.label_rozmowa.setText(_translate("MainWindow", "Rozmowa"))
         self.label_komunikaty.setText(_translate("MainWindow", "Komunikaty"))
         self.label_menu.setText(_translate("MainWindow", "Menu"))
-        self.label_stolik.setText(_translate("MainWindow", "Stolik"))
+        self.label_stolik.setText(_translate("MainWindow", "Zamówienie"))
         self.Kelner.setText(_translate("MainWindow", "Zawołaj kelnera"))
 
     def Wyslanie(self):  #pobieranie tekstu wpisywanego przez klienta i wypisywanie go w logach

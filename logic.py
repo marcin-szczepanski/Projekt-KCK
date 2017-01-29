@@ -43,9 +43,12 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
     tab = []
     dania_komunikat = ""
     dania_stolik = ""
+    if (a == 0):
+        danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
+        return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.","")
     for i in range(0,a):
         tab.append(findMeal(list[i][1]))
-        if(tab[i]!=False):
+        if(tab[i]!=False) and (tab != []):
             ilosc = list[i][0]
             global kwota
             kwota = kwota + int(ilosc)*int((fromMenutoList()[tab[i]-1]).split(";",2)[-1])
@@ -84,13 +87,16 @@ def przyniesF(list):
 def odejdz():
     return("Kelner odchodzi od stołu \n","","")
 
+def podejdz():
+    return("","","podejdz")
+
 def polec():
     x = random.randint(1,13)
     polecam = str(fromMenutoList()[x-1]).split(";",2)[0].lower()
     return("Polecono: " + polecam, "Dzisiaj polecamy " + polecam + "! \n")
 
 def zaplac(): # funkcja do placenia, oblicza sume zamowienia
-       return("Kwota do zapłaty to " + str(kwota) + " zł.", "Proszę o zapłatę " + str(kwota) + " \n", "Rachunek: " + str(kwota))
+       return("Kwota do zapłaty to " + str(kwota) + " zł.", "Proszę o zapłatę " + str(kwota) + " \n", str(kwota))
 	
 def error(): ### gdy nie zrozumiemy o co chodzi klientowi :)
     return("Nie zrozumiałem.  \n","","")
@@ -109,6 +115,7 @@ def clbadwds(list): ### funkcja czyści niepotrzebne słowa dla funkcji prosic()
 def zamow(list): ### funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
 	meals = []
 	count = len(list)//3
+	print(list)
 	if (len(list) % 3) != 0:
 		return (error())
 	meals = [[[None] for col in range(2)] for row in range(count)]
@@ -218,5 +225,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("poproszę o zabranie karta")
+##x=understanding("poproszę napój")
 ##print(x)

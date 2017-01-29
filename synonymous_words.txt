@@ -1,8 +1,8 @@
-zamówić;zamawiać;zamow;1
+﻿zamówić;zamawiać;zamow;1
 płacić;zapłacić;wpłacić;zaplac;0
-polecić;zaproponować;proponować;polecać;mieć;zarekomedować;rekomendować;polec;0
+poleć;polecić;zaproponować;proponować;polecać;mieć;zarekomedować;rekomendować;polec;0
 podejść;przyjść;podejdz;0
-odejść;iść;odejdz;0
+dziękować;wszystko;odejść;iść;odejdz;0
 zabrać;wziąć;zabierać;zabierz;1
 dać;dawać;podać;podawać;prosić;poprosić;przynieść;przynosić;prosic;1
 przyniesF;1

@@ -3,6 +3,7 @@ import sys
 import re
 import string
 
+
 def clearbadwords(str = "", file = "badwords.txt"): # pierwszy argument przyjmuje zdanie, drugi plik tekstowy z wyrazami do usunięcia
     f = open(file, mode ="r+")
     try:
@@ -30,6 +31,22 @@ def clearbadwords(str = "", file = "badwords.txt"): # pierwszy argument przyjmuj
     finally:
         f.close()
     print ('Blad')
+def szukajdania(x): #funkcja do znajdywania w pliku menu.txt odpowiedniego posiłku, o który prosi klient
+    lista = []
+    isItFound = False
+    lines = 0
+    with open('Menu.txt', 'r', encoding='utf-8') as searchfile:
+        for line in searchfile:
+            lines = lines + 1
+            if x in line:
+                line = line[0:line.find(';')]
+                lista.append(line.rstrip('\n'))
+                break
+        a = len(lista)
+        if a>0:
+            return line
+        else:
+            return False
 
 def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
     f = open(file, mode="r+")
@@ -40,6 +57,7 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
     resultword = []
     resultcm = []
     poprzednia = ''
+    lastword = ''
     for word in wordlist:
         czyznaleziono = 0
         ##tutaj w petli tworzyl bym wyrazenie regularne z kazdego wyrazu
@@ -61,12 +79,18 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
                 if (czescmowy =="N" and poprzednia!="NUMCRD"):
                     resultcm.append('NUMCRD')
                     resultword.append('1')
+                if (poprzednia == "N" and czescmowy != "ADJ"):
+                    resultword.append(szukajdania(lastword).split()[1])
+                    resultcm.append('ADJ')
+                lastword = word
                 poprzednia = czescmowy
-                ##print(type(word))
                 ##print(type(czescmowy))
                 resultword.append(word)
                 resultcm.append(czescmowy)
                 break;
+        if (czescmowy == "N"):
+            resultword.append(szukajdania(word).split()[1])
+            resultcm.append('ADJ')
         if(czyznaleziono == 0):
             f_brak.write(word + "\n")
             print("Brakuje słowa w słowniku: " + word )
@@ -81,5 +105,5 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
 ##jajecznica tradycyjna omlet owsiany rosół tradycyjny zupa pomidorowa zupa jarzynowa zupa grzybowa żurek staropolski barszcz ukraiński gulasz węgierski leczo klasyczne tatar wołowy bigos po staropolsku sałatka jarzynowa kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy
 
 #.,?![]{}();:-_
-#print (wordtoinfinitive("zabrać#$% . zabierać .:)"))
+print (wordtoinfinitive("poproszę 3 omlety"))
 

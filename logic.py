@@ -23,9 +23,9 @@ def findMeal(x): #funkcja do znajdywania w pliku menu.txt odpowiedniego posiłku
         else:
             return False
 
-def fromMenutoList(): #wczytuje menu.txt i tworzy z niego listę
+def fromMenutoList(file = "Menu.txt"): #wczytuje menu.txt i tworzy z niego listę
     MenuLista = []
-    with open('Menu.txt', 'r', encoding='utf-8') as searchfile:
+    with open(file, 'r', encoding='utf-8') as searchfile:
         for line in searchfile:
             MenuLista.append(line.rstrip('\n'))
     return MenuLista
@@ -92,8 +92,8 @@ def podejdz():
 
 def polec():
     x = random.randint(1,13)
-    polecam = str(fromMenutoList()[x-1]).split(";",2)[0].lower()
-    return("Polecono: " + polecam, "Dzisiaj polecamy " + polecam + "! \n")
+    polecam = str(fromMenutoList("Menu_polecane.txt")[x-1]).split(";",2)[0].lower()
+    return("Polecono: " + polecam, "Dzisiaj polecamy " + polecam + "! \n","")
 
 def zaplac(): # funkcja do placenia, oblicza sume zamowienia
        return("Kwota do zapłaty to " + str(kwota) + " zł.", "Proszę o zapłatę " + str(kwota) + " \n", str(kwota))
@@ -224,5 +224,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("poproszę napój")
-##print(x)
+x=understanding("Co Pan poleca?")
+print(x)

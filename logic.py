@@ -224,5 +224,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("zabrać naczynia?")
+##x=understanding("Czy może pan zabrać naczynia?")
 ##print(x)

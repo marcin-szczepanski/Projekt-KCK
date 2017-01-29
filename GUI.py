@@ -167,6 +167,8 @@ class Ui_MainWindow(object):
                         self.PodajDanie(stolik_in)
                         self.podane=1
                 if (komunikat_in.find("Kwota do zapłaty"))!=-1:
+                    if akcja[2]=="0":
+                        sys.exit()
                     pln = QtWidgets.QInputDialog()
                     pln.setLabelText(komunikat_in)
                     pln.setWindowTitle("Zapłata")
@@ -177,6 +179,7 @@ class Ui_MainWindow(object):
                         retval = pln.exec_()
                     if retval == 1:
                         sys.exit()
+
                 self.Wpisywanie.clear()
                 #logit = open("log.txt", "a")
                 #logit.write(self.Logi.toPlainText())
@@ -274,6 +277,8 @@ class Ui_MainWindow(object):
         akcja=("","","")
         wpisywany_in="Poproszę rachunek"
         akcja=logic.understanding(wpisywany_in)
+        if akcja[2]=="0":
+            sys.exit()
         komunikat_in=akcja [0]
         pln.setLabelText(komunikat_in)
         pln.setWindowTitle("Zapłata")

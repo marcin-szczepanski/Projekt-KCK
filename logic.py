@@ -56,7 +56,7 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
             wartosc = int(ilosc)*cena
             kwota = kwota + wartosc
             dania_komunikat += (odmiana(list,i)) + "\n"
-            dania_stolik = dania_stolik + (odmiana(list,i)) + " - " + str(wartosc) + "zł" + " \n"
+            dania_stolik = dania_stolik + (odmiana(list,i)) + " - " + str(wartosc) + " zł" + " \n"
         else:
             danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
             return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.","")

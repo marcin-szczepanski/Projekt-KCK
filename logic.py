@@ -40,7 +40,6 @@ def menuOdmienionetoArray(): #wczytuje plik menuOdmienione i tworzy z niego list
 
 def zamowF(list): #na podstawie listy tworzy zamówienie
     a = len(list)
-    print(list)
     tab = []
     dania_komunikat = ""
     dania_stolik = ""

@@ -24,6 +24,7 @@ import sys
 import codecs
 import logic
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -178,7 +179,7 @@ class Ui_MainWindow(object):
                         pln.setLabelText(komunikat_in+"\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
                         retval = pln.exec_()
                     if retval == 1:
-                        sys.exit()
+                        self.infoDialogue()
 
                 self.Wpisywanie.clear()
                 #logit = open("log.txt", "a")
@@ -288,7 +289,16 @@ class Ui_MainWindow(object):
             pln.setLabelText(komunikat_in+"\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
             retval = pln.exec_()
         if retval == 1:
+            self.infoDialogue()
+
+    def infoDialogue(self):
+            infoBox = QMessageBox()
+            infoBox.setIcon(QMessageBox.Information)
+            infoBox.setText("Dziękujemy i zapraszamy ponowanie. :)")
+            infoBox.setWindowTitle("Żegnamy!")
+            infoBox.exec_()
             sys.exit()
+
 
 def myExitHandler():
     ui.exitowanie()

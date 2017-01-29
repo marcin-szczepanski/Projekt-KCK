@@ -79,7 +79,10 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
                 if (czescmowy =="N" and poprzednia!="NUMCRD"):
                     resultcm.append('NUMCRD')
                     resultword.append('1')
-                if (poprzednia == "N" and czescmowy != "ADJ"):
+                print(czescmowy)
+                if (poprzednia == "N" and czescmowy !='ADJ'):
+                    print(czescmowy)
+                    print(poprzednia)
                     if (szukajdania(lastword)!=False):
                         resultword.append(szukajdania(lastword).split()[1])
                         resultcm.append('ADJ')
@@ -89,13 +92,14 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
                 resultword.append(word)
                 resultcm.append(czescmowy)
                 break;
-        if (czescmowy == "N" and (szukajdania(lastword)!=False)):
-                resultword.append(szukajdania(word).split()[1])
-                resultcm.append('ADJ')
+
         if(czyznaleziono == 0):
             f_brak.write(word + "\n")
             print("Brakuje słowa w słowniku: " + word )
 
+    if (czescmowy == "N" and (szukajdania(lastword) != False)):
+        resultword.append(szukajdania(word).split()[1])
+        resultcm.append('ADJ')
 
     res_str = ' '.join(resultword)
     res_cm = ' '.join(resultcm)
@@ -106,6 +110,6 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
 ##jajecznica tradycyjna omlet owsiany rosół tradycyjny zupa pomidorowa zupa jarzynowa zupa grzybowa żurek staropolski barszcz ukraiński gulasz węgierski leczo klasyczne tatar wołowy bigos po staropolsku sałatka jarzynowa kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy
 
 #.,?![]{}();:-_
-#print (wordtoinfinitive("poproszę kotleta"))
+#print (wordtoinfinitive("poproszę omlet "))
 
 #print(szukajdania('menu'))

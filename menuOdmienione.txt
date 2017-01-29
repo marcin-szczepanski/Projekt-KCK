@@ -1,4 +1,4 @@
-1 jajecznicę;2 jajecznice;3 jajecznice;4 jajecznice; jajecznic
+﻿1 jajecznicę;2 jajecznice;3 jajecznice;4 jajecznice; jajecznic
 1 omlet;2 omlety;3 omlety;4 omlety; omletów
 1 rosół;2 rosoły;3 rosoły; 4 rosoły; rosołów
 1 zupa pomidorowa;2 zupy pomidorowe;3 zupy pomidorowe;4 zupy pomidorowe; zup pomidorowych
@@ -11,10 +11,6 @@
 1 sałatkę jarzynową;2 sałatki jarzynowe;3 sałatki jarzynowe;4 sałatki jarzynowe; sałatek jarzynowych
 1 kotleta schabowego;2 kotlety schabowe;3 kotlety schabowe;4 kotlety schabowe; kotletów schabowych
 1 naleśniki serowe;2 naleśniki serowe;3 naleśniki serowe;4 naleśniki serowe; naleśników serowe
-1 golonkę; 2 golonki;3 golonki;4 golonki; golonek
-1 porcję kaszy;2 porcje kaszy;3 porcje kaszy;4 porcje kaszy; porcji kaszy
-1 porcję ziemniaków;2 porcje ziemniaków;3 porcje kziemniaków;4 porcje ziemniaków; porcji ziemniaków
-1 porcję ryżu;2 porcje ryżu;3 porcje ryżu;4 porcje ryżu; porcji ryżu
 1 kawę;2 kawy; 3 kawy; 4 kawy; kaw
 1 herbatę tradycyjną;2 herbaty tradycyjne;3 herbaty tradycyjne;4 herbaty tradycyjne; herbat tradycyjnych
 1 herbatę zieloną;2 herbaty zielone;3 herbaty zielone;4 herbaty zielone; herbat zielonych

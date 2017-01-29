@@ -1,6 +1,7 @@
 #koduje wojciech
-
+import sys
 import re
+import string
 
 def clearbadwords(str = "", file = "badwords.txt"): # pierwszy argument przyjmuje zdanie, drugi plik tekstowy z wyrazami do usunięcia
     f = open(file, mode ="r+")
@@ -9,17 +10,17 @@ def clearbadwords(str = "", file = "badwords.txt"): # pierwszy argument przyjmuj
         s = s.lower()
         str = str.lower()
         listbad = s.split()
+        # .,?![]{}();:-_
+        str = str.replace("!", " ").replace(".", " ").replace(",", " ").replace("?", " ")
+        str = str.replace("[", " ").replace("]", " ").replace("(", " ").replace(")", " ").replace("{", " ").replace("}", " ")
+        str = str.replece(";", " ").replace(":", " ").replace("-", " ").replace("_", " ").replace("+", " ").replace("`", " ")
         liststr = str.split()
-        ##liststr = list(set(liststr)) ### psuje kolejność wyrazów w zdaniu
-
         for bs in listbad:
             for gs in liststr:
                 if gs == bs:
                     liststr.remove(bs)
 
-        ##liststr.sort() sort listy
         retstring = ' '.join(liststr)
-
         return(retstring)
 
     finally:
@@ -75,7 +76,6 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
 ###test
 ##jajecznica tradycyjna omlet owsiany rosół tradycyjny zupa pomidorowa zupa jarzynowa zupa grzybowa żurek staropolski barszcz ukraiński gulasz węgierski leczo klasyczne tatar wołowy bigos po staropolsku sałatka jarzynowa kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy
 
-
-##print (wordtoinfinitive(" parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy"))
-
+#.,?![]{}();:-_
+#print (wordtoinfinitive("zabrać zabierać ."))
 

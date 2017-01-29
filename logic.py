@@ -1,7 +1,8 @@
-### koduje Marcin
 import linecache
 import clear
 import random
+
+##################################
 
 kwota = 0
 
@@ -65,9 +66,7 @@ def odmiana(list, i):  #służy do skomplikowania wyjścia, np. zamówiono 2 ser
            return(menuOdmienionetoArray()[inMenu-1][ilosc-1])
 
 def zabierz(list):
-    if list[0][0] == "zabranie":
-        list[0][0] = list[1][0]
-    x = list[0][0]
+    x = list[1][0]
     return("Zabrano: " + x + "\n", "Już zabieram. \n", x)
 
 def przyniesF(list):
@@ -211,7 +210,7 @@ def understanding(s):
 		method()
 	return
 
-understanding("poproszę menu")
+##understanding("proszę dwie zupy pomidorowe i jajecznicę tradycyjną")
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 

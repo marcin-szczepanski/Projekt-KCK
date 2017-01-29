@@ -23,22 +23,6 @@ from PyQt5.QtCore import pyqtSlot
 import sys
 import codecs
 import logic
-can_exit=0
-
-class MainWindow(QWidget):
-    def closeEvent(self, event):
-        # do stuff
-        if can_exit:
-            event.accept() # let the window close
-        else:
-            event.ignore()
-    def close(self, event):
-        # do stuff
-        print("dsadsada")
-        if can_exit:
-            event.accept() # let the window close
-        else:
-            event.ignore()
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -140,7 +124,7 @@ class Ui_MainWindow(object):
         self.label_rozmowa.setText(_translate("MainWindow", "Rozmowa"))
         self.label_komunikaty.setText(_translate("MainWindow", "Komunikaty"))
         self.label_menu.setText(_translate("MainWindow", "Menu"))
-        self.label_stolik.setText(_translate("MainWindow", "Zamówienie"))
+        self.label_stolik.setText(_translate("MainWindow", "Zamówiono"))
         self.Kelner.setText(_translate("MainWindow", "Zawołaj kelnera"))
 
     def Wyslanie(self):  #pobieranie tekstu wpisywanego przez klienta i wypisywanie go w logach

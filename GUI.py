@@ -103,6 +103,7 @@ class Ui_MainWindow(object):
         self.podanemenu=0
         self.kelner_przy_stoliku=0
         self.numerstolika=0
+        self.dziendobry=0
         MainWindow.setStatusBar(self.statusbar)
         msg = QtWidgets.QInputDialog()
         msg.isComboBoxEditable()
@@ -163,7 +164,17 @@ class Ui_MainWindow(object):
                     if odpowiedz_in=="Przyjąłem zamówienie. \n":
                         self.PodajDanie(stolik_in)
                         self.podane=1
-                #self.Komunikowanie(komunikat_in)
+                if (komunikat_in.find("Kwota do zapłaty"))!=-1:
+                    pln = QtWidgets.QInputDialog()
+                    pln.setLabelText(komunikat_in)
+                    pln.setWindowTitle("Zapłata")
+                    pln.setWindowIcon(QIcon('icon.png'))
+                    retval = pln.exec_()
+                    while((retval == 0) or (pln.textValue()!=akcja[2])):
+                        pln.setLabelText(komunikat_in+"\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
+                        retval = pln.exec_()
+                    if retval == 1:
+                        sys.exit()
                 self.Wpisywanie.clear()
                 #logit = open("log.txt", "a")
                 #logit.write(self.Logi.toPlainText())
@@ -172,7 +183,9 @@ class Ui_MainWindow(object):
                 self.Komunikowanie("Wpisz tekst przed wysłaniem!")
         else:
             self.Komunikowanie("Aby porozmawiać z kelnerem musisz najpierw go zawołać.")
-
+        self.Komunikaty.moveCursor(QtGui.QTextCursor.End)
+        self.Logi.moveCursor(QtGui.QTextCursor.End)
+        self.Stolik.moveCursor(QtGui.QTextCursor.End)
 
     def PodajMenu(self):
                     self.Menu.show()
@@ -201,25 +214,33 @@ class Ui_MainWindow(object):
             self.label_obraz.setPixmap(QtGui.QPixmap("j4.jpg"))
 
     def WolajKelnera(self): #zawołanie kelnera
+        if self.kelner_przy_stoliku==0:
+            if self.podane==0:
+                if "1" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
+                if "2" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
+                if "3" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
+                if "4" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
+            else:
+                if "1" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("p1.jpg"))
+                if "2" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("p2.jpg"))
+                if "3" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("p3.jpg"))
+                if "4" == self.numerstolika:
+                    self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
+            if self.dziendobry==0:
+                self.Logi.insertPlainText("Dzień dobry. W czym mogę pomoc?\n")
+                self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
+                self.dziendobry=1
+            else:
+                self.Logi.insertPlainText("W czym mogę pomoc?\n")
+                self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
         self.kelner_przy_stoliku=1
-        if self.podane==0:
-            if "1" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("w1.jpg"))
-            if "2" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("w2.jpg"))
-            if "3" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("w3.jpg"))
-            if "4" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("w4.jpg"))
-        else:
-            if "1" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("p1.jpg"))
-            if "2" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("p2.jpg"))
-            if "3" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("p3.jpg"))
-            if "4" == self.numerstolika:
-                self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
 
     def ZabierzJedzenie(self):
          self.podane=0

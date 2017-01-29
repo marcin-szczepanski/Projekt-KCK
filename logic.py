@@ -110,8 +110,8 @@ def zamow(list): ### funkcja przekształca listę do postaci argumentów postaci
 		noun = list.pop(0)
 		adj = list.pop(0)
 		meals[i][1] = noun[0] + " " + adj[0]
-	zamowF(meals)
-	return
+	ret = zamowF(meals)
+	return (ret)
 
 def prosic(list, file="words.txt"):
 	f = open(file, mode="r+")
@@ -134,7 +134,7 @@ def prosic(list, file="words.txt"):
 			break
 	f.close();
 	if action == '':
-		zamow(list)
+		ret = zamow(list)
 	else:
 		value = whataction(action)
 		how_many_args = value[1]
@@ -210,8 +210,8 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-x=understanding("Poproszę wodę mineralną")
-print(x)
+##x=understanding("Zamawiam zupę pomidorową i jajecznicę tradycyjną")
+##print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 

@@ -224,5 +224,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-x=understanding("Co Pan poleca?")
-print(x)
+##x=understanding("Co Pan poleca?")
+##print(x)

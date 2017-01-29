@@ -148,10 +148,10 @@ def prosic(list, file="words.txt"):
 			args.append(listargs[0])
 			listargs.pop(0)
 		if how_many_args != '0':
-			method(args)
+			ret = method(args)
 		else:
-			method()
-	return
+			ret = method()
+	return (ret)
 
 def createobjectslist(wordlist = '', listofpartsofspeech = ''):
 	w = wordlist.split(" ")
@@ -205,12 +205,13 @@ def understanding(s):
 		args.append(list[0])
 		list.pop(0)
 	if how_many_args != '0':
-		method(args)
+		ret = method(args)
 	else:
-		method()
-	return
+		ret = method()
+	return (ret)
 
-##understanding("proszę dwie zupy pomidorowe i jajecznicę tradycyjną")
+##x=understanding("podaj menu")
+##print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))
 

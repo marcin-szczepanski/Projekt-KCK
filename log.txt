@@ -1,0 +1,94 @@
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Dzieñ dobry. Poproszê menu.
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Dzieñ dobry. Poproszê menu.
+Kelner: Proszê bardzo. 
+Klient: Dziêkujê.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poprosze omlet owsiany
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poprosze omlet owsiany
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poprosze omlet owsiany
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poprosze omlet owsiany
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê odsa owsiany
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poprosze omlet owsiany
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê odsa owsiany
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu 
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu 
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu 
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu 
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: zabierz menu
+Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu 
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: zabierz menu
+Kelner: Ju¿ zabieram. 
+Klient: zabierz talerze
+Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu 
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: zabierz menu
+Kelner: Ju¿ zabieram. 
+Klient: zabierz talerze
+Kelner: Ju¿ zabieram. 

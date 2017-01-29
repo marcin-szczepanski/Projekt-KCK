@@ -182,9 +182,6 @@ class Ui_MainWindow(object):
                         self.infoDialogue()
 
                 self.Wpisywanie.clear()
-                #logit = open("log.txt", "a")
-                #logit.write(self.Logi.toPlainText())
-                #logit.close()
             else:
                 self.Komunikowanie("Wpisz tekst przed wysłaniem!")
         else:
@@ -192,6 +189,9 @@ class Ui_MainWindow(object):
         self.Komunikaty.moveCursor(QtGui.QTextCursor.End)
         self.Logi.moveCursor(QtGui.QTextCursor.End)
         self.Stolik.moveCursor(QtGui.QTextCursor.End)
+        logit = open("log.txt", "a")
+        logit.write(self.Logi.toPlainText())
+        logit.close()
 
     def PodajMenu(self):
                     self.Menu.show()

@@ -139,7 +139,8 @@ class Ui_MainWindow(object):
                 #odpowiedz_in="to odp kelnera"
                 #self.OdpowiedzKelnera(odpowiedz_in)
                 komunikat_in=akcja [0]
-                self.Komunikowanie(komunikat_in)
+                self.Komunikaty.insertPlainText(komunikat_in)
+                #self.Komunikowanie(komunikat_in)
                 self.Wpisywanie.clear()
                 #logit = open("log.txt", "a")
                 #logit.write(self.Logi.toPlainText())

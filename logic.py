@@ -53,7 +53,7 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
             dania_stolik += (odmiana(list,i)) + "\n"
         else:
             danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
-            return (danie_blad, "Niestety dania nie ma w naszej karcie.","")
+            return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.","")
     return ("Zamówiono: \n" + dania_komunikat, "Przyjąłem zamówienie. \n", dania_stolik)
 
 

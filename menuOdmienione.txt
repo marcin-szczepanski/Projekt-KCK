@@ -10,7 +10,7 @@
 1 leczo;2 lecza;3 lecza;4 lecza; lecz
 1 sałatkę jarzynową;2 sałatki jarzynowe;3 sałatki jarzynowe;4 sałatki jarzynowe; sałatek jarzynowych
 1 kotleta schabowego;2 kotlety schabowe;3 kotlety schabowe;4 kotlety schabowe; kotletów schabowych
-1 naleśniki serowe;2 naleśniki serowe;3 naleśniki serowe;4 naleśniki serowe; naleśników serowe
+1 naleśniki serowe;2 naleśniki serowe;3 naleśniki serowe;4 naleśniki serowe; naleśników serowych
 1 kawę;2 kawy; 3 kawy; 4 kawy; kaw
 1 herbatę tradycyjną;2 herbaty tradycyjne;3 herbaty tradycyjne;4 herbaty tradycyjne; herbat tradycyjnych
 1 herbatę zieloną;2 herbaty zielone;3 herbaty zielone;4 herbaty zielone; herbat zielonych

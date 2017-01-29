@@ -25,6 +25,12 @@ tradycyjnoœci¹;3æ,N/
 tradycyjnoœæ;0,N/
 tradycyjny;0,ADJ/
 tradycyjnych;2,ADJ/
+zielonych;2,ADJ/
+soków;2,N/
+szklanek;2ka,N/
+szklanki;1a,N/
+szklankê;1a,N/
+serników;2,N/
 tradycyjnym;1,ADJ/
 tradycyjnymi;2,ADJ/
 zielona;1y,ADJ/
@@ -542,6 +548,7 @@ Golonków;2a,N/
 ¿urkach;4ek,N/
 ¿urkami;4ek,N/
 ¿urki;2ek,N/
+¿urków;3ek,N/
 ¿urkiem;4ek,N/
 ¿urkom;3ek,N/
 ¿urkowi;4ek,N/
@@ -583,11 +590,16 @@ ukraiñskiej;2,ADJ/
 ukraiñskiemu;3,ADJ/
 ukraiñskim;1,ADJ/
 ukraiñskimi;2,ADJ/
+barszczów;2,N/
+barszczu;1,N/
+barszczy;1,N/
+gulaszy;1,N/
 lecza;1o,N/
 gulasz;0,N/
 gulaszach;3,N/
 gulaszami;3,N/
 gulasze;1,N/
+lecz;0,CONJ/
 gulaszem;2,N/
 gulaszom;2,N/
 wêgierce;2ka,N/
@@ -2479,3 +2491,4 @@ daj;1æ,V/
 50;0,NUMCRD/
 karty;1a,N/
 karty;1,N/
+grzybowych;2,ADJ/

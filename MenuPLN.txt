@@ -1,19 +1,19 @@
 ﻿jajecznica tradycyjna;6 zł
-omlet owsiany;5 zł
-rosół tradycyjny;7 zł
-zupa pomidorowa;5 zł
-zupa jarzynowa;5 zł
-zupa grzybowa;6 zł
-żurek staropolski;5 zł
-barszcz ukraiński;6 zł
-gulasz węgierski;10 zł
-leczo klasyczne;12 zł
-sałatka jarzynowa;6 zł
-kotlet schabowy;12 zł
-naleśniki serowe;8 zł
-kawa parzona;4 zł
-herbata tradycyjna;4 zł
-herbata zielona;4 zł
-sok jabłkowy;4 zł
-woda mineralna;3 zł
-sernik biszkoptowy;9 zł
+omlet owsiany          ;5 zł
+rosół tradycyjny        ;7 zł
+zupa pomidorowa     ;5 zł
+zupa jarzynowa        ;5 zł
+zupa grzybowa         ;6 zł
+żurek staropolski      ;5 zł
+barszcz ukraiński      ;6 zł
+gulasz węgierski       ;10 zł
+leczo klasyczne         ;12 zł
+sałatka jarzynowa     ;6 zł
+kotlet schabowy        ;12 zł
+naleśniki serowe       ;8 zł
+kawa parzona           ;4 zł
+herbata tradycyjna    ;4 zł
+herbata zielona         ;4 zł
+sok jabłkowy            ;4 zł
+woda mineralna        ;3 zł
+sernik biszkoptowy    ;9 zł

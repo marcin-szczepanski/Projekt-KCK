@@ -103,6 +103,8 @@ def clbadwds(list):
 def zamow(list): ### funkcja przekształca listę do postaci argumentów postaci [liczebnik, string z nazwą dania]
 	meals = []
 	count = len(list)//3
+	if (len(list) % 3) != 0:
+		return (error())
 	meals = [[[None] for col in range(2)] for row in range(count)]
 	for i in range(count):
 		number = list.pop(0)
@@ -210,7 +212,7 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("Zamawiam tatara wołowego")
+##x=understanding("poproszę omlet")
 ##print(x)
 ### test
 ##print (understanding("poprosić 2 Zupa pomidorowa 1 Sałatka jarzynowa","V NUMCRD N Adj NUMCRD N Adj"))

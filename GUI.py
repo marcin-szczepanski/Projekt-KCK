@@ -37,6 +37,7 @@ class Ui_MainWindow(object):
         self.Logi.setGeometry(QtCore.QRect(130, 300, 291, 301))
         self.Logi.setReadOnly(True)
         self.Logi.setObjectName("Logi")
+        self.Logi.setFontPointSize(16)
         self.Wyslij = QtWidgets.QPushButton(self.centralwidget)
         self.Wyslij.setGeometry(QtCore.QRect(350, 600, 71, 31))
         self.Wyslij.setObjectName("Wyslij")
@@ -45,6 +46,7 @@ class Ui_MainWindow(object):
         self.Komunikaty.setGeometry(QtCore.QRect(130, 30, 291, 221))
         self.Komunikaty.setReadOnly(True)
         self.Komunikaty.setObjectName("Komunikaty")
+        self.Komunikaty.setFontPointSize(16)
         self.Wpisywanie = QtWidgets.QLineEdit(self.centralwidget)
         self.Wpisywanie.setGeometry(QtCore.QRect(130, 600, 221, 31))
         self.Wpisywanie.setObjectName("Wpisywanie")
@@ -242,12 +244,15 @@ class Ui_MainWindow(object):
                     self.label_obraz.setPixmap(QtGui.QPixmap("p4.jpg"))
             if self.dziendobry==0:
                 self.Logi.insertPlainText("Kelner: Dzień dobry. W czym mogę pomóc?\n")
-                self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
+                self.Komunikaty.insertPlainText("Kelner podchodzi do stołu.\n")
                 self.dziendobry=1
             else:
                 self.Logi.insertPlainText("Kelner: W czym mogę pomóc?\n")
-                self.Komunikaty.insertPlainText("Kelner podchodzi do stolu.\n")
+                self.Komunikaty.insertPlainText("Kelner podchodzi do stołu.\n")
         self.kelner_przy_stoliku=1
+        self.Komunikaty.moveCursor(QtGui.QTextCursor.End)
+        self.Logi.moveCursor(QtGui.QTextCursor.End)
+        self.Stolik.moveCursor(QtGui.QTextCursor.End)
 
     def Komunikowanie(self, komunikat_in):
          """

@@ -338,3 +338,266 @@ Klient: poproszê dsadsa
 Kelner: Niestety dania nie ma w naszej karcie.
 Klient: poproszê dsadsa
 Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Poproszê menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Klient: dziêkujê, to wszystko
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Klient: dziêkujê, to wszystko
+Kelner: W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Klient: dziêkujê, to wszystko
+Kelner: W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: to poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Klient: dziêkujê, to wszystko
+Kelner: W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: to poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: odejdŸ!
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Klient: dziêkujê, to wszystko
+Kelner: W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: to poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: odejdŸ!
+Kelner: W czym mogê pomóc?
+Klient: zabierz menu
+Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê 22 wody mineralne
+Kelner: Przyj¹³em zamówienie. 
+Klient: dziêkujê, to wszystko
+Kelner: W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: to poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: odejdŸ!
+Kelner: W czym mogê pomóc?
+Klient: zabierz menu
+Kelner: Ju¿ zabieram. 
+Klient: zabierz talerze
+Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: d
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: sd
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: sd
+Klient: ad
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: sd
+Klient: ad
+Klient: sa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: dsa
+Klient: d
+Klient: a
+Klient: ds
+Klient: a
+Klient: dsa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: d
+Klient: sa
+Klient: sd
+Klient: ad
+Klient: sa
+Klient: odejdŸ

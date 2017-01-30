@@ -58,8 +58,8 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
             dania_komunikat += (odmiana(list,i)) + "\n"
             dania_stolik = dania_stolik + (odmiana(list,i)) + " - " + str(wartosc) + " zł" + " \n"
         else:
-            danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
-            return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.","")
+            danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)\n"
+            return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.\n","")
     return ("Zamówiono: \n" + dania_komunikat, "Przyjąłem zamówienie. \n", dania_stolik)
 
 
@@ -72,6 +72,8 @@ def odmiana(list, i):  #służy do skomplikowania wyjścia, np. zamówiono 2 ser
            return(menuOdmienionetoArray()[inMenu-1][ilosc-1])
 
 def zabierz(list):
+    if list == []:
+        return error()
     x = list[1][0]
     if (x=="naczynie"):
         x="talerz"
@@ -227,5 +229,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-##x=understanding("Chciałbym zamówić jajecznicę, 2 rosoły, trzy zupy pomidorowe, siedem leczy klasycznych, dwie wody i sernik.")
-##print(x)
+x=understanding("przynieś jedzenie")
+print(x)

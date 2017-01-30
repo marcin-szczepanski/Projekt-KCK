@@ -229,5 +229,5 @@ def understanding(s):
 		ret = method()
 	return (ret)
 
-x=understanding("przynieś jedzenie")
-print(x)
+##x=understanding("przynieś jedzenie")
+##print(x)

@@ -93,20 +93,18 @@ def wordtoinfinitive(s = '', file = "dicdomyslny.dic" ):
         if(czyznaleziono == 0):
             f_brak.write(word + "\n")
             #print("Brakuje słowa w słowniku: " + word )
-
-    if (lastword!='' and czescmowy == "N" and (szukajdania(lastword) != False)):
+    if (lastword!='' and czescmowy == "N" and (szukajdania(lastword) != False) and type(szukajdania(word))!= bool ):
         resultword.append(szukajdania(word).split()[1])
         resultcm.append('ADJ')
+
     res_str = ' '.join(resultword)
     res_cm = ' '.join(resultcm)
     f.close()
-
     return(res_str,res_cm)
 
 ###test
 ##jajecznica tradycyjna omlet owsiany rosół tradycyjny zupa pomidorowa zupa jarzynowa zupa grzybowa żurek staropolski barszcz ukraiński gulasz węgierski leczo klasyczne tatar wołowy bigos po staropolsku sałatka jarzynowa kotlet schabowy naleśniki serowe pierogi ruskie golonka staropolska placki ziemniaczane frytki belgijskie kasza gryczana ziemniaki polskie ryż biały kawa parzona herbata tradycyjna herbata zielona sok jabłkowy woda mineralna sernik na zimno jabłecznik biszkoptowy
 
 #.,?![]{}();:-_
-#print (wordtoinfinitive("siema"))
 
 #print(szukajdania('menu'))

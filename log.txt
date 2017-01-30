@@ -316,3 +316,25 @@ Kelner: Proszê bardzo.
 Kelner: Dzieñ dobry. W czym mogê pomóc?
 Klient: podaj menu
 Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: zabierz jedzonko
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: zabierz jedzonko
+Klient: poproszê dsada
+Kelner: Niestety dania nie ma w naszej karcie.Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: zabierz jedzonko
+Klient: poproszê dsada
+Kelner: Niestety dania nie ma w naszej karcie.Klient: poproszê dsada
+Kelner: Niestety dania nie ma w naszej karcie.Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê dsada
+Kelner: Niestety dania nie ma w naszej karcie.Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê dsada
+Kelner: Niestety dania nie ma w naszej karcie.Klient: poproszê dsadas
+Kelner: Niestety dania nie ma w naszej karcie.Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê dsadsa
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê dsadsa
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: poproszê dsadsa
+Kelner: Niestety dania nie ma w naszej karcie.

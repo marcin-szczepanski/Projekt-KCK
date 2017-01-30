@@ -45,7 +45,7 @@ def zamowF(list): #na podstawie listy tworzy zamówienie
     dania_stolik = ""
     if (a == 0):
         danie_blad = "Chcesz zamówić danie, którego nie ma w menu! Proszę zamów coś innego :)"
-        return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.","")
+        return (danie_blad+"\n", "Niestety dania nie ma w naszej karcie.\n","")
     for i in range(0,a):
         tab.append(findMeal(list[i][1]))
         if(tab[i]!=False) and (tab != []):

@@ -601,3 +601,724 @@ Klient: sd
 Klient: ad
 Klient: sa
 Klient: odejdŸ
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Klient: I mo¿e jeszcze poprosi³bym 3 wody i omlet.
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Klient: I mo¿e jeszcze poprosi³bym 3 wody i omlet.
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê, to wszystko ;)
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Klient: I mo¿e jeszcze poprosi³bym 3 wody i omlet.
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê, to wszystko ;)
+Kelner: W czym mogê pomóc?
+Klient: A mo¿e by mi Pan coœ poleci³? :)
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Klient: I mo¿e jeszcze poprosi³bym 3 wody i omlet.
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê, to wszystko ;)
+Kelner: W czym mogê pomóc?
+Klient: A mo¿e by mi Pan coœ poleci³? :)
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: Nie to dziêkujê :)
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Klient: I mo¿e jeszcze poprosi³bym 3 wody i omlet.
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê, to wszystko ;)
+Kelner: W czym mogê pomóc?
+Klient: A mo¿e by mi Pan coœ poleci³? :)
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: Nie to dziêkujê :)
+Kelner: W czym mogê pomóc?
+Klient: Móg³by Pan zabraæ menu?
+Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ ;) Czy móg³bym poprosiæ kartê dañ?
+Kelner: Proszê bardzo. 
+Klient: To poproszê leczo
+Kelner: Przyj¹³em zamówienie. 
+Klient: I wie Pan co, jeszcze poproszê sernik
+Kelner: Przyj¹³em zamówienie. 
+Klient: I mo¿e jeszcze poprosi³bym 3 wody i omlet.
+Kelner: Przyj¹³em zamówienie. 
+Klient: Dziêkujê, to wszystko ;)
+Kelner: W czym mogê pomóc?
+Klient: A mo¿e by mi Pan coœ poleci³? :)
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: Nie to dziêkujê :)
+Kelner: W czym mogê pomóc?
+Klient: Móg³by Pan zabraæ menu?
+Kelner: Ju¿ zabieram. 
+Klient: A mo¿e jeszcze móg³by Pan zabraæ naczynia?
+Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Klient: Jeszcze jeden rosó³ poproszê
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Klient: Jeszcze jeden rosó³ poproszê
+Kelner: Przyj¹³em zamówienie. 
+Klient: Jakiœ rabacik poprosê
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Klient: Jeszcze jeden rosó³ poproszê
+Kelner: Przyj¹³em zamówienie. 
+Klient: Jakiœ rabacik poprosê
+Klient: Poproszê
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Klient: Jeszcze jeden rosó³ poproszê
+Kelner: Przyj¹³em zamówienie. 
+Klient: Jakiœ rabacik poprosê
+Klient: Poproszê
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Poproszê inne
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Klient: Jeszcze jeden rosó³ poproszê
+Kelner: Przyj¹³em zamówienie. 
+Klient: Jakiœ rabacik poprosê
+Klient: Poproszê
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Poproszê inne
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Poproszê 2 gulasze i 2 barszcze ukraiñskie
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Czeœæ
+Klient: Czy mogê coœ zmaoówiæ?
+Klient: Czy mogê coœ zamówiæ?
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Co mi Pan polecasz?
+Klient: Dawaj menu
+Kelner: Proszê bardzo. 
+Klient: To ja bym prosi³ sernikz roso³em
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Sernik z roso³em
+Klient: Poproszê sernik z roso³em
+Klient: Poproszê sernik i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: Móg³bym jeszcze jeden rosó³?
+Klient: Jeszcze jeden rosó³ poproszê
+Kelner: Przyj¹³em zamówienie. 
+Klient: Jakiœ rabacik poprosê
+Klient: Poproszê
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Poproszê inne
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: Poproszê 2 gulasze i 2 barszcze ukraiñskie
+Kelner: Przyj¹³em zamówienie. 
+Klient: Chcia³by wyjœæ, poproszê
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan polecasz?
+Kelner: Dzisiaj polecamy zupê pomidorow¹! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan polecasz?
+Kelner: Dzisiaj polecamy zupê pomidorow¹! 
+Klient: w takim razie polecam zupe pomidorow¹
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan polecasz?
+Kelner: Dzisiaj polecamy zupê pomidorow¹! 
+Klient: w takim razie polecam zupe pomidorow¹
+Klient: w takim razie poproszê zupê
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: podaj omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: podaj omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj barszcz
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: podaj omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj barszcz
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj ¿urek noobie
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: podaj omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj barszcz
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj ¿urek noobie
+Klient: dawaj ¿urek
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: podaj omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj barszcz
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj ¿urek noobie
+Klient: dawaj ¿urek
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj jeszcze wiêcej ¿urku
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Klient: podaj omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj barszcz
+Kelner: Przyj¹³em zamówienie. 
+Klient: dawaj ¿urek noobie
+Klient: dawaj ¿urek
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj jeszcze wiêcej ¿urku
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: poproszê 2 ¿urków
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: dasj
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: dasj
+Klient: dsadsajlkdsa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: dasj
+Klient: dsadsajlkdsa
+Klient: podaj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: podaj pierogi
+Klient: podaj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj
+Kelner: Niestety dania nie ma w naszej karcie.
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i rosó³
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet i zupê pomidorow¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj menu
+Kelner: Proszê bardzo. 
+Klient: daj kawê parzon¹
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: daj rachuneczek
+Kelner: Niestety dania nie ma w naszej karcie.

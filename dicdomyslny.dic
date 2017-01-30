@@ -11,10 +11,7 @@ szeœæ;56,NUMCRD/
 siedem;67,NUMCRD/
 staropolsku;0,ADV/
 staroœwiecku;0,ADV/
-proszê;2iæ,V/
-naczyniu;1e,N/
-naczynka;1o,N/
-naczynkach;3o,N/
+proszê;2iæ,V/pole
 naczynkami;3o,N/
 naczynkiem;3o,N/
 naczynko;0,N/
@@ -2198,9 +2195,10 @@ wp³aci³yœcie;6æ,V/
 wp³aci³yœmy;5æ,V/
 wp³acimy;2æ,V/
 wp³acisz;2æ,V/
-olecicie;3æ,V/
+polecicie;3æ,V/
 polecicie;3eæ,V/
 poleciæ;0,V/
+polecasz;3iæ,V/
 polecieæ;0,V/
 polecieli;2æ,V/
 polecieliby;4æ,V/

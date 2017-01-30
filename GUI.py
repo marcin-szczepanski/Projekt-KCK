@@ -23,6 +23,7 @@ from PyQt5.QtCore import pyqtSlot
 import sys
 import codecs
 import logic
+import time
 
 
 class Ui_MainWindow(object):
@@ -171,12 +172,12 @@ class Ui_MainWindow(object):
                     if akcja[2]=="0":
                         self.infoDialogue()
                     pln = QtWidgets.QInputDialog()
-                    pln.setLabelText(komunikat_in)
+                    pln.setLabelText(komunikat_in+"\nWpisz wpisz kwotę do zapłaty i potwierdź płatność (kwota musi być równa wymaganej).")
                     pln.setWindowTitle("Zapłata")
                     pln.setWindowIcon(QIcon('icon.png'))
                     retval = pln.exec_()
                     while((retval == 0) or (pln.textValue()!=akcja[2])):
-                        pln.setLabelText(komunikat_in+"\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
+                        pln.setLabelText(komunikat_in+"\nWpisz wpisz kwotę do zapłaty i potwierdź płatność (kwota musi być równa wymaganej).\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
                         retval = pln.exec_()
                     if retval == 1:
                         self.infoDialogue()
@@ -263,12 +264,12 @@ class Ui_MainWindow(object):
         if akcja[2]=="0":
             self.infoDialogue()
         komunikat_in=akcja [0]
-        pln.setLabelText(komunikat_in)
+        pln.setLabelText(komunikat_in+"\nWpisz wpisz kwotę do zapłaty i potwierdź płatność (kwota musi być równa wymaganej).")
         pln.setWindowTitle("Zapłata")
         pln.setWindowIcon(QIcon('icon.png'))
         retval = pln.exec_()
         while((retval == 0) or (pln.textValue()!=akcja[2])):
-            pln.setLabelText(komunikat_in+"\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
+            pln.setLabelText(komunikat_in+"\nWpisz wpisz kwotę do zapłaty i potwierdź płatność (kwota musi być równa wymaganej).\nNie możesz wyjść bez zapłaty odpowiedzniej kwoty. Spróbuj ponownie.")
             retval = pln.exec_()
         if retval == 1:
             self.infoDialogue()

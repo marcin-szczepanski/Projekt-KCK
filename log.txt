@@ -138,3 +138,85 @@ Klient: Dziêkujê to wszystko
 Kelner: W czym mogê pomóc?
 Klient: Mo¿e pan zabraæ menu
 Kelner: Ju¿ zabieram. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Poproszê menu.
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Poproszê menu.
+Kelner: Proszê bardzo. 
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Poproszê menu.
+Kelner: Proszê bardzo. 
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: Poproszê menu.
+Kelner: Proszê bardzo. 
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy gulasz wêgierski! 
+Klient: poproszê gulasz wêgierski
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca
+Kelner: Dzisiaj polecamy rosó³ tradycyjny! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy sa³atkê jarzynow¹! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy kotlet schabowy! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy kotlet schabowy! 
+Klient: wiêc poproszê owo danie
+Kelner: Niestety dania nie ma w naszej karcie.Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy kotlet schabowy! 
+Klient: wiêc poproszê owo danie
+Kelner: Niestety dania nie ma w naszej karcie.Klient: kotlet schabowy 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy kotlet schabowy! 
+Klient: wiêc poproszê owo danie
+Kelner: Niestety dania nie ma w naszej karcie.Klient: kotlet schabowy 
+Klient: chce zamowic kotlet schabowy
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca?
+Kelner: Dzisiaj polecamy kotlet schabowy! 
+Klient: wiêc poproszê owo danie
+Kelner: Niestety dania nie ma w naszej karcie.Klient: kotlet schabowy 
+Klient: chce zamowic kotlet schabowy
+Klient: daj mi menu
+Kelner: Proszê bardzo. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca
+Kelner: Dzisiaj polecamy zupê jarzynow¹! 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: co pan poleca
+Kelner: Dzisiaj polecamy zupê jarzynow¹! 
+Klient: zamówiê zupê jarzynow¹
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet
+Kelner: Przyj¹³em zamówienie. 
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: siahdasa
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
+Kelner: Dzieñ dobry. W czym mogê pomóc?
+Klient: poproszê omlet owsiany
+Kelner: Przyj¹³em zamówienie. 
